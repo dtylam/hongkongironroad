@@ -9,15 +9,14 @@
 }
 
 .stations-carousel {
-    display: flex;
-    flex-direction: column;
+    min-height: 480px;
 }
 
 .station-circle {
     width: 25px;
     height: 25px;
     background-color: white;
-    border: 5px solid grey;
+    border: 4px solid grey;
     border-radius: 50%;
     display: inline-block;
 }

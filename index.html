@@ -1,32 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Static Website</title>
+    <title>Hong Kong Iron Road</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" media="(prefers-color-scheme:light)"
+        href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.0/cdn/themes/light.css" />
+    <link rel="stylesheet" media="(prefers-color-scheme:dark)"
+        href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.0/cdn/themes/dark.css"
+        onload="document.documentElement.classList.add('sl-theme-dark');" />
+    <link rel="stylesheet" media="(prefers-color-scheme:light)"
+        href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.0/cdn/themes/light.css" />
+    <link rel="stylesheet" media="(prefers-color-scheme:dark)"
+        href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.0/cdn/themes/dark.css"
+        onload="document.documentElement.classList.add('sl-theme-dark');" />
+    <script type="module"
+        src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.0/cdn/shoelace-autoloader.js"></script>
 </head>
+
 <body>
     <header>
-        <h1>Welcome to My Static Website</h1>
+        <h1>Hong Kong Iron Road</h1>
     </header>
     <main>
         <section>
             <h2>About</h2>
-            <p>This is a simple static website created to demonstrate basic HTML, CSS, and JavaScript usage.</p>
+            <p>Railway stations. But in literal translations.</p>
         </section>
         <section>
-            <h2>Features</h2>
-            <ul>
-                <li>Responsive design</li>
-                <li>Interactive elements</li>
-                <li>Easy to customize</li>
-            </ul>
+            <h2>Pick Your Lines</h2>
+            <sl-button variant="default" outline>Line 1</sl-button>
+            <sl-button variant="primary" outline>Line 2</sl-button>
+            <sl-button variant="success" outline>Line 3</sl-button>
+            <sl-button variant="neutral" outline>Line 4</sl-button>
+            <sl-button variant="warning" outline>Line 5</sl-button>
+        </section>
+        <section>              
+            <sl-carousel class="stations-carousel" autoplay pagination navigation>
+                <sl-carousel-item>
+                    <sl-card class="card-header">
+                        <div slot="header">
+                            Station 1
+                            <sl-icon-button name="gear" label="Settings"></sl-icon-button>
+                        </div>
+        
+                        This card has a header. You can put all sorts of things in it!
+                    </sl-card>
+                </sl-carousel-item>
+                <sl-carousel-item>
+                    <sl-card class="card-header">
+                        <div slot="header">
+                            Station 2
+                            <sl-icon-button name="gear" label="Settings"></sl-icon-button>
+                        </div>
+        
+                        This card has a header. You can put all sorts of things in it!
+                    </sl-card>
+                </sl-carousel-item>
+                <sl-carousel-item>
+                    <sl-card class="card-header">
+                        <div slot="header">
+                            Station 3
+                            <sl-icon-button name="gear" label="Settings"></sl-icon-button>
+                        </div>
+        
+                        This card has a header. You can put all sorts of things in it!
+                    </sl-card>
+                </sl-carousel-item>
+              </sl-carousel>              
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 My Static Website</p>
+        <p>&copy; 2025 Hong Kong Iron Road</p>
     </footer>
     <script src="js/scripts.js"></script>
 </body>
+
 </html>

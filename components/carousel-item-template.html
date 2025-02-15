@@ -1,11 +1,22 @@
 <sl-carousel-item>
-    <sl-card class="card-header">
+    <sl-card class="station-card">
         <div slot="header">
-            <p>
-                <sl-icon name="circle"></sl-icon>           
-            </p>
-            <span class="zh-name"></span>
+            <div class="line-drawing">
+                <div class="station-circle"></div>         
+            </div>
+            <h2 class="zh-name"></h2>
+            <p class="en-transliteration"></p>
         </div>
-        <div class="en-transliteration"></div>
+        <div>
+            <p>
+                <span class="en-name"></span>
+            </p>
+            <p>Station Code:
+                <span class="station-code"></span>
+            </p>
+            <p>Jyutping:
+                <span class="jyutping"></span>
+            </p>
+        </div>
     </sl-card>
 </sl-carousel-item>

@@ -1,23 +1,41 @@
-.card-header {
-    max-width: 300px;
+.station-card {
+    min-width: 200px;
+    max-width: 90%;
 }
 
-.card-header [slot='header'] {
-    display: flex;
+.station-card [slot='header'] {
     align-items: center;
-    justify-content: space-between;
-}
-
-.card-header h3 {
-    margin: 0;
-}
-
-.card-header sl-icon-button {
-    font-size: var(--sl-font-size-medium);
+    height: auto;
 }
 
 .stations-carousel {
     display: flex;
     flex-direction: column;
-    height: auto;
+}
+
+.station-circle {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 5px solid grey;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.line-drawing {
+    background: linear-gradient(to bottom, transparent 25%, #53B7E8 25%, #53B7E8 75%, transparent 75%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zh-name {
+    font-weight: bold;
+}
+
+.en-transliteration {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: capitalize;
 }

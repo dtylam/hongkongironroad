@@ -1,0 +1,167 @@
+[
+    {
+        "lineCode": "EAL",
+        "direction": "DT",
+        "stationCode": "LOW",
+        "stationId": 76,
+        "zhName": "羅湖",
+        "jyutping": "lo4 wu4",
+        "enName": "Lo Wu",
+        "enTransliteration": "collect lake",
+        "sequence": 0
+    },
+    {
+        "lineCode": "EAL",
+        "direction": "LMC-DT",
+        "stationCode": "LMC",
+        "stationId": 78,
+        "zhName": "落馬洲",
+        "jyutping": "lok6 maa5 zau1",
+        "enName": "Lok Ma Chau",
+        "enTransliteration": "alight horse islet",
+        "sequence": 1
+    },
+    {
+        "lineCode": "EAL",
+        "direction": "DT",
+        "stationCode": "SHS",
+        "stationId": 75,
+        "zhName": "上水",
+        "jyutping": "soeng5 seoi2",
+        "enName": "Sheung Shui",
+        "enTransliteration": "ascend water",
+        "sequence": 2
+    },
+    {
+        "lineCode": "EAL",
+        "direction": "DT",
+        "stationCode": "FAN",
+        "stationId": 74,
+        "zhName": "粉嶺",
+        "jyutping": "fan2 leng5",
+        "enName": "Fanling",
+        "enTransliteration": "pink ridge",
+        "sequence": 3
+    },
+    {
+        "lineCode": "EAL",
+        "direction": "DT",
+        "stationCode": "TWO",
+        "stationId": 73,
+        "zhName": "太和",
+        "jyutping": "taai3 wo4",
+        "enName": "Tai Wo",
+        "enTransliteration": "highest harmony",
+        "sequence": 4
+    },
+    {
+        "lineCode": "EAL",
+        "direction": "DT",
+        "stationCode": "TAP",
+        "stationId": 72,
+        "zhName": "大埔墟",
+        "jyutping": "daai6 bou3 heoi1",
+        "enName": "Tai Po Market",
+        "enTransliteration": "big plains market",
+        "sequence": 5
+    },
+    {
+        "lineCode": "EAL",
+        "direction": "DT",
+        "stationCode": "UNI",
+        "stationId": 71,
+        "zhName": "大學",
+        "jyutping": "daai6 hok6",
+        "enName": "University",
+        "enTransliteration": "big learn",
+        "sequence": 6
+    },
+    {
+        "lineCode": "EAL",
+        "direction": "DT",
+        "stationCode": "FOT",
+        "stationId": 69,
+        "zhName": "火炭",
+        "jyutping": "fo2 taan3",
+        "enName": "Fo Tan",
+        "enTransliteration": "fire coal",
+        "sequence": 7
+    },
+    {
+        "lineCode": "EAL",
+        "direction": "DT",
+        "stationCode": "SHT",
+        "stationId": 68,
+        "zhName": "沙田",
+        "jyutping": "saa1 tin4",
+        "enName": "Sha Tin",
+        "enTransliteration": "sand field",
+        "sequence": 8
+    },
+    {
+        "lineCode": "EAL",
+        "direction": "DT",
+        "stationCode": "TAW",
+        "stationId": 67,
+        "zhName": "大圍",
+        "jyutping": "daai6 wai4",
+        "enName": "Tai Wai",
+        "enTransliteration": "big surround",
+        "sequence": 9
+    },
+    {
+        "lineCode": "EAL",
+        "direction": "DT",
+        "stationCode": "KOT",
+        "stationId": 8,
+        "zhName": "九龍塘",
+        "jyutping": "gau2 lung4 tong4",
+        "enName": "Kowloon Tong",
+        "enTransliteration": "nine dragon pond",
+        "sequence": 10
+    },
+    {
+        "lineCode": "EAL",
+        "direction": "DT",
+        "stationCode": "MKK",
+        "stationId": 65,
+        "zhName": "旺角東",
+        "jyutping": "wong6 gok3 dung1",
+        "enName": "Mong Kok East",
+        "enTransliteration": "bustling corner east",
+        "sequence": 11
+    },
+    {
+        "lineCode": "EAL",
+        "direction": "DT",
+        "stationCode": "HUH",
+        "stationId": 64,
+        "zhName": "紅磡",
+        "jyutping": "hung4 ham3",
+        "enName": "Hung Hom",
+        "enTransliteration": "red ledge",
+        "sequence": 12
+    },
+    {
+        "lineCode": "EAL",
+        "direction": "DT",
+        "stationCode": "EXC",
+        "stationId": 94,
+        "zhName": "會展",
+        "jyutping": "wui6 zin2",
+        "enName": "Exhibition Centre",
+        "enTransliteration": "meetings exhibitions",
+        "sequence": 13
+    },
+    {
+        "lineCode": "EAL",
+        "direction": "DT",
+        "stationCode": "ADM",
+        "stationId": 2,
+        "zhName": "金鐘",
+        "jyutping": "gam1 zung1",
+        "enName": "Admiralty",
+        "enTransliteration": "gold bell",
+        "sequence": 14
+    }
+]

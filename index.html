@@ -16,6 +16,7 @@
     <link rel="stylesheet" media="(prefers-color-scheme:dark)"
         href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.0/cdn/themes/dark.css"
         onload="document.documentElement.classList.add('sl-theme-dark');" />
+    <script src="js/scripts.js"></script>
     <script type="module"
         src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.0/cdn/shoelace-autoloader.js"></script>
 </head>
@@ -27,55 +28,24 @@
     <main>
         <section>
             <h2>About</h2>
-            <p>Railway stations. But in literal translations.</p>
+            <p>Hong Kong railway stations. But in literal translations.</p>
         </section>
         <section>
             <h2>Pick Your Lines</h2>
-            <sl-button variant="default" outline>Line 1</sl-button>
-            <sl-button variant="primary" outline>Line 2</sl-button>
+            <sl-button variant="primary" outline>東鐵綫 East Rail Line</sl-button>
             <sl-button variant="success" outline>Line 3</sl-button>
             <sl-button variant="neutral" outline>Line 4</sl-button>
             <sl-button variant="warning" outline>Line 5</sl-button>
         </section>
-        <section>              
+        <section>
             <sl-carousel class="stations-carousel" autoplay pagination navigation>
-                <sl-carousel-item>
-                    <sl-card class="card-header">
-                        <div slot="header">
-                            Station 1
-                            <sl-icon-button name="gear" label="Settings"></sl-icon-button>
-                        </div>
-        
-                        This card has a header. You can put all sorts of things in it!
-                    </sl-card>
-                </sl-carousel-item>
-                <sl-carousel-item>
-                    <sl-card class="card-header">
-                        <div slot="header">
-                            Station 2
-                            <sl-icon-button name="gear" label="Settings"></sl-icon-button>
-                        </div>
-        
-                        This card has a header. You can put all sorts of things in it!
-                    </sl-card>
-                </sl-carousel-item>
-                <sl-carousel-item>
-                    <sl-card class="card-header">
-                        <div slot="header">
-                            Station 3
-                            <sl-icon-button name="gear" label="Settings"></sl-icon-button>
-                        </div>
-        
-                        This card has a header. You can put all sorts of things in it!
-                    </sl-card>
-                </sl-carousel-item>
-              </sl-carousel>              
+                <!-- New sl-carousel-item elements will be injected here -->
+            </sl-carousel>
         </section>
     </main>
     <footer>
         <p>&copy; 2025 Hong Kong Iron Road</p>
     </footer>
-    <script src="js/scripts.js"></script>
 </body>
 
 </html>

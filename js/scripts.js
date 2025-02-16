@@ -16,7 +16,6 @@ function populateCarouselItems(data) {
         carouselItem.querySelector(".zh-name").textContent = item.zhName;
         carouselItem.querySelector(".en-transliteration").textContent =
           item.enTransliteration;
-        carouselItem.querySelector(".station-code").textContent = item.stationCode;
         carouselItem.querySelector(".en-name").textContent = item.enName;
         carouselItem.querySelector(".jyutping").textContent = item.jyutping;
 

@@ -1,5 +1,5 @@
 .station-card {
-    min-width: 220px;
+    min-width: 240px;
 }
 
 .station-card [slot='header'] {
@@ -13,8 +13,7 @@
 }
 
 .stations-carousel {
-    min-height: 480px;
-    --aspect-ratio: 3/2;
+    min-height: 27em;
 }
 
 div.station-circle {

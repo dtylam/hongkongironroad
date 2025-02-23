@@ -26,7 +26,6 @@ div.station-circle {
 }
 
 div.line-drawing {
-    background: linear-gradient(to bottom, transparent 20%, #53B7E8 20%, #53B7E8 80%, transparent 80%);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -63,6 +62,24 @@ span.jyutping {
 span.card-title {
     color: grey;
     font-size: 0.9em;
+}
+
+#eal-button {
+    --sl-color-primary-600: #53B7E8;
+    --sl-color-primary-500: #53B7E8;
+}
+
+#eal-button::part(base) {
+    border-color: #53B7E8;
+}
+
+#ael-button {
+    --sl-color-primary-600: #00888A;
+    --sl-color-primary-500: #00888A;
+}
+
+#ael-button::part(base) {
+    border-color: #00888A;
 }
 
 body {

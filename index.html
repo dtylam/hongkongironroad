@@ -19,7 +19,7 @@
     <link rel="stylesheet" media="(prefers-color-scheme:dark)"
         href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.0/cdn/themes/dark.css"
         onload="document.documentElement.classList.add('sl-theme-dark');" />
-    <script src="js/scripts.js"></script>
+    <script type="module" src="js/scripts.js"></script>
     <script type="module"
         src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.0/cdn/shoelace-autoloader.js"></script>
 </head>
@@ -35,9 +35,9 @@
         </section>
         <section>
             <h2>Pick Your Lines</h2>
-            <sl-button variant="primary" outline>東鐵綫 East Rail Line</sl-button>
-            <sl-button variant="success" outline>Line 3</sl-button>
-            <sl-button variant="warning" outline>Line 5</sl-button>
+            <sl-button id="eal-button" outline>東鐵綫 East Rail Line</sl-button>
+            <sl-button id="ael-button" outline>機場快綫 Airport Express</sl-button>
+            <sl-button outline>Line 3</sl-button>
         </section>
         <section>
             <sl-carousel class="stations-carousel" autoplay autoplay-interval="5000" looping pagination navigation>

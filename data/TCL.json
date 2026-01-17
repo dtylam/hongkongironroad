@@ -1,0 +1,98 @@
+[
+    {
+        "lineCode": "TCL",
+        "direction": "DT",
+        "stationCode": "TUC",
+        "stationId": 43,
+        "zhName": "東涌",
+        "jyutping": "dung1 cung1",
+        "enName": "Tung Chung",
+        "enTransliteration": "east gush",
+        "sequence": 1,
+        "pinyin": "dōng chōng"
+    },
+    {
+        "lineCode": "TCL",
+        "direction": "DT",
+        "stationCode": "SUN",
+        "stationId": 54,
+        "zhName": "欣澳",
+        "jyutping": "jan1 ou3",
+        "enName": "Sunny Bay",
+        "enTransliteration": "joyful bay",
+        "sequence": 2,
+        "pinyin": "xīn ào"
+    },
+    {
+        "lineCode": "TCL",
+        "direction": "DT",
+        "stationCode": "TSY",
+        "stationId": 42,
+        "zhName": "青衣",
+        "jyutping": "cing1 ji1",
+        "enName": "Tsing Yi",
+        "enTransliteration": "green coat",
+        "sequence": 3,
+        "pinyin": "qīng yī"
+    },
+    {
+        "lineCode": "TCL",
+        "direction": "DT",
+        "stationCode": "LAK",
+        "stationId": 21,
+        "zhName": "茘景",
+        "jyutping": "lai6 ging2",
+        "enName": "Lai King",
+        "enTransliteration": "lychee view",
+        "sequence": 4,
+        "pinyin": "lì jǐng"
+    },
+    {
+        "lineCode": "TCL",
+        "direction": "DT",
+        "stationCode": "NAC",
+        "stationId": 53,
+        "zhName": "南昌",
+        "jyutping": "naam4 coeng1",
+        "enName": "Nam Cheong",
+        "enTransliteration": "south prosperity",
+        "sequence": 5,
+        "pinyin": "nán chāng"
+    },
+    {
+        "lineCode": "TCL",
+        "direction": "DT",
+        "stationCode": "OLY",
+        "stationId": 41,
+        "zhName": "奧運",
+        "jyutping": "ou3 wan6",
+        "enName": "Olympic",
+        "enTransliteration": "profound movement",
+        "sequence": 6,
+        "pinyin": "ào yùn"
+    },
+    {
+        "lineCode": "TCL",
+        "direction": "DT",
+        "stationCode": "KOW",
+        "stationId": 40,
+        "zhName": "九龍",
+        "jyutping": "gau2 lung4",
+        "enName": "Kowloon",
+        "enTransliteration": "nine dragon",
+        "sequence": 7,
+        "pinyin": "jiǔ lóng"
+    },
+    {
+        "lineCode": "TCL",
+        "direction": "DT",
+        "stationCode": "HOK",
+        "stationId": 39,
+        "zhName": "香港",
+        "jyutping": "hoeng1 gong2",
+        "enName": "Hong Kong",
+        "enTransliteration": "fragrant harbour",
+        "sequence": 8,
+        "pinyin": "xiāng gǎng"
+    }
+]

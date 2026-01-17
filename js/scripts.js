@@ -42,15 +42,27 @@ async function populateCarouselItems(data) {
 
 // ready function
 document.addEventListener("DOMContentLoaded", function () {
+  const drawer = document.querySelector('.pick-line-drawer');
+  const openButton = document.querySelector('.pick-line-button');
+  const closeButtons = drawer.querySelectorAll('ul li sl-button');
+  openButton.addEventListener('click', () => drawer.show());
+  closeButtons.forEach(button => button.addEventListener('click', () => drawer.hide()));
+
   loadLine(TrainLine.EAL);
 
   const ealButton = document.getElementById("eal-button");
   ealButton.addEventListener("click", () => {
     loadLine(TrainLine.EAL);
   });
+
   const aelButton = document.getElementById("ael-button");
   aelButton.addEventListener("click", () => {
     loadLine(TrainLine.AEL);
+  });
+
+  const tclButton = document.getElementById("tcl-button");
+  tclButton.addEventListener("click", () => {
+    loadLine(TrainLine.TCL);
   });
 
 });

@@ -48,7 +48,7 @@ p.en-transliteration {
 }
 
 span.en-name {
-    font-size: 0.9em;
+    font-size: 1em;
     color: grey;
     margin: auto 0;
 }
@@ -79,6 +79,16 @@ span.card-title {
     font-size: 0.9em;
 }
 
+.pick-line-drawer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pick-line-drawer ul li sl-button {
+    margin-bottom: 1em;
+}
+
 #eal-button {
     --sl-color-primary-600: #53B7E8;
     --sl-color-primary-500: #53B7E8;
@@ -95,6 +105,15 @@ span.card-title {
 
 #ael-button::part(base) {
     border-color: #00888A;
+}
+
+#tcl-button {
+    --sl-color-primary-600: #F7943E;
+    --sl-color-primary-500: #F7943E;
+}
+
+#tcl-button::part(base) {
+    border-color: #F7943E;
 }
 
 body {

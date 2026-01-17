@@ -30,15 +30,29 @@
     </header>
     <main>
         <section>
-            <h2>About</h2>
+            <!-- <h2>About</h2> -->
             <p>Hong Kong railway stations. But in literal translations.</p>
         </section>
-        <section>
+        <sl-drawer label="Pick Your Line" class="pick-line-drawer">
+            <ul>
+                <li>
+                    <sl-button id="eal-button" outline>東鐵綫 East Rail Line</sl-button>
+                </li>
+                <li>
+                    <sl-button id="tcl-button" outline>東涌綫 Tung Chung Line</sl-button>
+                </li>
+                <li>
+                    <sl-button id="ael-button" outline>機場快綫 Airport Express</sl-button>
+                </li>
+            </ul>
+        </sl-drawer>
+        <sl-button class="pick-line-button" outline>Pick Your Line</sl-button>
+        <!-- <section>
             <h2>Pick Your Lines</h2>
             <sl-button id="eal-button" outline>東鐵綫 East Rail Line</sl-button>
             <sl-button id="ael-button" outline>機場快綫 Airport Express</sl-button>
-            <sl-button outline>Line 3</sl-button>
-        </section>
+            <sl-button id="tcl-button" outline>東涌綫 Tung Chung Line</sl-button>
+        </section> -->
         <section>
             <sl-carousel class="stations-carousel" autoplay autoplay-interval="5000" looping pagination navigation>
                 <!-- New sl-carousel-item elements will be injected here -->

@@ -11,6 +11,12 @@ export const TrainLine = Object.freeze({
         enName: 'Airport Express',
         zhName: '機場快綫'
     },
+    TCL: {
+        lineCode: 'TCL',
+        lineColor: '#F7943E',
+        enName: 'Tung Chung Line',
+        zhName: '東涌綫'
+    },
 
     // Helper methods
     fromCode(code) {

@@ -53,10 +53,25 @@ span.en-name {
     margin: auto 0;
 }
 
+div.zh-phonetics-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;  /* Right-aligns the spans */
+  text-align: right;      /* Ensures text hugs the right edge */
+  gap: 0.25em;            /* Optional small vertical space between spans */
+  margin: auto 0;
+}
+
 span.jyutping {
     font-size: 0.9em;
     color: grey;
-    margin: auto 0;
+    /* margin: auto 0; */
+}
+
+span.pinyin {
+    font-size: 0.9em;
+    color: grey;
+    /* margin: auto 0; */
 }
 
 span.card-title {

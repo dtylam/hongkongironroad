@@ -8,7 +8,8 @@
         "jyutping": "lo4 wu4",
         "enName": "Lo Wu",
         "enTransliteration": "collect lake",
-        "sequence": 0
+        "sequence": 0,
+        "pinyin": "luó hú"
     },
     {
         "lineCode": "EAL",
@@ -19,7 +20,8 @@
         "jyutping": "lok6 maa5 zau1",
         "enName": "Lok Ma Chau",
         "enTransliteration": "alight horse island",
-        "sequence": 1
+        "sequence": 1,
+        "pinyin": "luò mǎ zhōu"
     },
     {
         "lineCode": "EAL",
@@ -30,7 +32,8 @@
         "jyutping": "soeng5 seoi2",
         "enName": "Sheung Shui",
         "enTransliteration": "up water",
-        "sequence": 2
+        "sequence": 2,
+        "pinyin": "shàng shuǐ"
     },
     {
         "lineCode": "EAL",
@@ -41,7 +44,8 @@
         "jyutping": "fan2 leng5",
         "enName": "Fanling",
         "enTransliteration": "pink ridge",
-        "sequence": 3
+        "sequence": 3,
+        "pinyin": "fěn lǐng"
     },
     {
         "lineCode": "EAL",
@@ -52,7 +56,8 @@
         "jyutping": "taai3 wo4",
         "enName": "Tai Wo",
         "enTransliteration": "highest harmony",
-        "sequence": 4
+        "sequence": 4,
+        "pinyin": "tài hé"
     },
     {
         "lineCode": "EAL",
@@ -63,7 +68,8 @@
         "jyutping": "daai6 bou3 heoi1",
         "enName": "Tai Po Market",
         "enTransliteration": "big plains market",
-        "sequence": 5
+        "sequence": 5,
+        "pinyin": "dà bù xū"
     },
     {
         "lineCode": "EAL",
@@ -74,7 +80,8 @@
         "jyutping": "daai6 hok6",
         "enName": "University",
         "enTransliteration": "big learn",
-        "sequence": 6
+        "sequence": 6,
+        "pinyin": "dà xué"
     },
     {
         "lineCode": "EAL",
@@ -85,7 +92,8 @@
         "jyutping": "fo2 taan3",
         "enName": "Fo Tan",
         "enTransliteration": "fire coal",
-        "sequence": 7
+        "sequence": 7,
+        "pinyin": "huǒ tàn"
     },
     {
         "lineCode": "EAL",
@@ -96,7 +104,8 @@
         "jyutping": "saa1 tin4",
         "enName": "Sha Tin",
         "enTransliteration": "sand field",
-        "sequence": 8
+        "sequence": 8,
+        "pinyin": "shā tián"
     },
     {
         "lineCode": "EAL",
@@ -107,7 +116,8 @@
         "jyutping": "daai6 wai4",
         "enName": "Tai Wai",
         "enTransliteration": "big surround",
-        "sequence": 9
+        "sequence": 9,
+        "pinyin": "dà wéi"
     },
     {
         "lineCode": "EAL",
@@ -118,7 +128,8 @@
         "jyutping": "gau2 lung4 tong4",
         "enName": "Kowloon Tong",
         "enTransliteration": "nine dragon pond",
-        "sequence": 10
+        "sequence": 10,
+        "pinyin": "jiǔ lóng táng"
     },
     {
         "lineCode": "EAL",
@@ -129,7 +140,8 @@
         "jyutping": "wong6 gok3 dung1",
         "enName": "Mong Kok East",
         "enTransliteration": "bustling corner east",
-        "sequence": 11
+        "sequence": 11,
+        "pinyin": "wàng jiǎo dōng"
     },
     {
         "lineCode": "EAL",
@@ -140,7 +152,8 @@
         "jyutping": "hung4 ham3",
         "enName": "Hung Hom",
         "enTransliteration": "red ledge",
-        "sequence": 12
+        "sequence": 12,
+        "pinyin": "hóng kàn"
     },
     {
         "lineCode": "EAL",
@@ -151,7 +164,8 @@
         "jyutping": "wui6 zin2",
         "enName": "Exhibition Centre",
         "enTransliteration": "meetings exhibitions",
-        "sequence": 13
+        "sequence": 13,
+        "pinyin": "huì zhǎn"
     },
     {
         "lineCode": "EAL",
@@ -162,6 +176,7 @@
         "jyutping": "gam1 zung1",
         "enName": "Admiralty",
         "enTransliteration": "gold bell",
-        "sequence": 14
+        "sequence": 14,
+        "pinyin": "jīn zhōng"
     }
 ]

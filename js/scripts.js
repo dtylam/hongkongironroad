@@ -17,6 +17,7 @@ function createCarouselItem(templateElement, item) {
     carouselItem.querySelector(".en-transliteration").textContent = item.enTransliteration;
     carouselItem.querySelector(".en-name").textContent = item.enName;
     carouselItem.querySelector(".jyutping").textContent = item.jyutping;
+    carouselItem.querySelector(".pinyin").textContent = item.pinyin;
     return carouselItem;
 }
 
@@ -59,7 +60,7 @@ function loadLine(trainLine) {
   fetch(filename)
     .then((response) => response.json())
     .then((data) => {
-      //   console.debug(data);
+        console.debug(data);
       populateCarouselItems(data);
     })
     .catch((error) => {

@@ -8,7 +8,8 @@
         "jyutping": "bok3 laam5 gun2",
         "enName": "AsiaWorld-Expo",
         "enTransliteration": "broad view building",
-        "sequence": 1
+        "sequence": 1,
+        "pinyin": "bó lǎn guǎn"
     },
     {
         "lineCode": "AEL",
@@ -19,7 +20,8 @@
         "jyutping": "gei1 coeng4",
         "enName": "Airport",
         "enTransliteration": "machine arena",
-        "sequence": 2
+        "sequence": 2,
+        "pinyin": "jī chǎng"
     },
     {
         "lineCode": "AEL",
@@ -30,7 +32,8 @@
         "jyutping": "cing1 ji1",
         "enName": "Tsing Yi",
         "enTransliteration": "green coat",
-        "sequence": 3
+        "sequence": 3,
+        "pinyin": "qīng yī"
     },
     {
         "lineCode": "AEL",
@@ -41,7 +44,8 @@
         "jyutping": "gau2 lung4",
         "enName": "Kowloon",
         "enTransliteration": "nine dragon",
-        "sequence": 4
+        "sequence": 4,
+        "pinyin": "jiǔ lóng"
     },
     {
         "lineCode": "AEL",
@@ -52,6 +56,7 @@
         "jyutping": "hoeng1 gong2",
         "enName": "Hong Kong",
         "enTransliteration": "fragrant harbour",
-        "sequence": 5
+        "sequence": 5,
+        "pinyin": "xiāng gǎng"
     }
 ]

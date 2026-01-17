@@ -74,6 +74,8 @@ function loadLine(trainLine) {
     .then((data) => {
         console.debug(data);
       populateCarouselItems(data);
+      document.getElementById("current-line").textContent = trainLine.zhName + ' ' + trainLine.enName;
+      document.getElementById("current-line").style.color = trainLine.lineColor;
     })
     .catch((error) => {
       // Your code to handle any errors

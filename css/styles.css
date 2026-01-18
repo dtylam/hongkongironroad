@@ -114,6 +114,15 @@ span.card-title {
     border-color: #F7943E;
 }
 
+#isl-button {
+    --sl-color-primary-600: #007DC5;
+    --sl-color-primary-500: #007DC5;
+}
+
+#isl-button::part(base) {
+    border-color: #007DC5;
+}
+
 h3#current-line {
     border-top: 1px solid;
     border-bottom: 1px solid;

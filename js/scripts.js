@@ -66,6 +66,11 @@ document.addEventListener("DOMContentLoaded", function () {
     loadLine(TrainLine.TCL);
   });
 
+  const islButton = document.getElementById("isl-button");
+  islButton.addEventListener("click", () => {
+    loadLine(TrainLine.ISL);
+  });
+
 });
 
 function loadLine(trainLine) {

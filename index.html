@@ -30,7 +30,6 @@
     </header>
     <main>
         <section>
-            <!-- <h2>About</h2> -->
             <p>Hong Kong railway stations. But in literal translations.</p>
         </section>
         <sl-drawer label="Pick Your Line" class="pick-line-drawer">
@@ -44,12 +43,15 @@
                 <li>
                     <sl-button id="ael-button" outline>機場快綫 Airport Express</sl-button>
                 </li>
+                <li>
+                    <sl-button id="isl-button" outline>港島綫 Island Line</sl-button>
+                </li>
             </ul>
         </sl-drawer>
         <sl-button class="pick-line-button" variant="neutral">Pick Your Line</sl-button>
         <section>
             <h3 id="current-line"></h3>
-            <sl-carousel class="stations-carousel" autoplay autoplay-interval="5000" looping pagination navigation>
+            <sl-carousel class="stations-carousel" autoplay autoplay-interval="4500" looping pagination navigation>
                 <!-- New sl-carousel-item elements will be injected here -->
             </sl-carousel>
         </section>

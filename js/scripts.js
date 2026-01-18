@@ -49,7 +49,9 @@ document.addEventListener("DOMContentLoaded", function () {
   openButton.addEventListener('click', () => drawer.show());
   closeButtons.forEach(button => button.addEventListener('click', () => drawer.hide()));
 
-  loadLine(TrainLine.EAL);
+  const allLines = Object.values(TrainLine).filter(value => typeof value === 'object' && value.lineCode);;
+  const randomLine = allLines[Math.floor(Math.random() * allLines.length)];
+  loadLine(randomLine);
 
   const ealButton = document.getElementById("eal-button");
   ealButton.addEventListener("click", () => {
@@ -78,7 +80,7 @@ function loadLine(trainLine) {
   fetch(filename)
     .then((response) => response.json())
     .then((data) => {
-        console.debug(data);
+      // console.debug(data);
       populateCarouselItems(data);
       document.getElementById("current-line").textContent = '📌 ' +trainLine.zhName + ' ' + trainLine.enName;
       document.getElementById("current-line").style.color = trainLine.lineColor;

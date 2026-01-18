@@ -35,6 +35,7 @@ async function populateCarouselItems(data) {
             const carouselItem = createCarouselItem(templateElement, item);
             carousel.appendChild(carouselItem);
         });
+        carousel.goToSlide(0);
     } catch (error) {
         console.error("Error fetching template:", error);
     }
@@ -74,7 +75,7 @@ function loadLine(trainLine) {
     .then((data) => {
         console.debug(data);
       populateCarouselItems(data);
-      document.getElementById("current-line").textContent = trainLine.zhName + ' ' + trainLine.enName;
+      document.getElementById("current-line").textContent = '📌 ' +trainLine.zhName + ' ' + trainLine.enName;
       document.getElementById("current-line").style.color = trainLine.lineColor;
     })
     .catch((error) => {

@@ -123,6 +123,15 @@ span.card-title {
     border-color: #007DC5;
 }
 
+#tkl-button {
+    --sl-color-primary-600: #7D499D;
+    --sl-color-primary-500: #7D499D;
+}
+
+#tkl-button::part(base) {
+    border-color: #7D499D;
+}
+
 h3#current-line {
     border-top: 1px solid;
     border-bottom: 1px solid;

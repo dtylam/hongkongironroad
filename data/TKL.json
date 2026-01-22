@@ -1,0 +1,98 @@
+[
+    {
+        "lineCode": "TKL",
+        "direction": "DT",
+        "stationCode": "POA",
+        "stationId": 52,
+        "zhName": "寶琳",
+        "jyutping": "bou2 lam4",
+        "enName": "Po Lam",
+        "enTransliteration": "precious gem",
+        "sequence": 1,
+        "pinyin": "bǎo lín"
+    },
+    {
+        "lineCode": "TKL",
+        "direction": "DT",
+        "stationCode": "HAH",
+        "stationId": 51,
+        "zhName": "坑口",
+        "jyutping": "haang1 hau2",
+        "enName": "Hang Hau",
+        "enTransliteration": "pit mouth",
+        "sequence": 2,
+        "pinyin": "kēng kǒu"
+    },
+    {
+        "lineCode": "TKL",
+        "direction": "TKS-DT",
+        "stationCode": "LHP",
+        "stationId": 57,
+        "zhName": "康城",
+        "jyutping": "hong1 sing4",
+        "enName": "LOHAS Park",
+        "enTransliteration": "health city",
+        "sequence": 8,
+        "pinyin": "kāng chéng"
+    },
+    {
+        "lineCode": "TKL",
+        "direction": "DT",
+        "stationCode": "TKO",
+        "stationId": 50,
+        "zhName": "將軍澳",
+        "jyutping": "zoeng3 gwan1 ou3",
+        "enName": "Tseung Kwan O",
+        "enTransliteration": "general bay",
+        "sequence": 3,
+        "pinyin": "jiāng jūn ào"
+    },
+    {
+        "lineCode": "TKL",
+        "direction": "DT",
+        "stationCode": "TIK",
+        "stationId": 49,
+        "zhName": "調景嶺",
+        "jyutping": "diu6 ging2 leng4",
+        "enName": "Tiu Keng Leng",
+        "enTransliteration": "adjust view ridge",
+        "sequence": 4,
+        "pinyin": "tiáo jǐng lǐng"
+    },
+    {
+        "lineCode": "TKL",
+        "direction": "DT",
+        "stationCode": "YAT",
+        "stationId": 48,
+        "zhName": "油塘",
+        "jyutping": "jau4 tong4",
+        "enName": "Yau Tong",
+        "enTransliteration": "oil pond",
+        "sequence": 5,
+        "pinyin": "yóu táng"
+    },
+    {
+        "lineCode": "TKL",
+        "direction": "DT",
+        "stationCode": "QUB",
+        "stationId": 32,
+        "zhName": "鰂魚涌",
+        "jyutping": "zeoi3 jyu4 cung1",
+        "enName": "Quarry Bay",
+        "enTransliteration": "carp fish gush",
+        "sequence": 6,
+        "pinyin": "zéi yú chōng"
+    },
+    {
+        "lineCode": "TKL",
+        "direction": "DT",
+        "stationCode": "NOP",
+        "stationId": 31,
+        "zhName": "北角",
+        "jyutping": "bak1 gok3",
+        "enName": "North Point",
+        "enTransliteration": "north corner",
+        "sequence": 7,
+        "pinyin": "běi jiǎo"
+    }
+]

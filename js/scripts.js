@@ -44,7 +44,7 @@ async function populateCarouselItems(data) {
 // ready function
 document.addEventListener("DOMContentLoaded", function () {
   const drawer = document.querySelector('.pick-line-drawer');
-  const openButton = document.querySelector('.pick-line-button');
+  const openButton = document.querySelector('#pick-line-button');
   const closeButtons = drawer.querySelectorAll('ul li sl-button');
   openButton.addEventListener('click', () => drawer.show());
   closeButtons.forEach(button => button.addEventListener('click', () => drawer.hide()));
@@ -71,6 +71,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const islButton = document.getElementById("isl-button");
   islButton.addEventListener("click", () => {
     loadLine(TrainLine.ISL);
+  });
+
+  const tklButton = document.getElementById("tkl-button");
+  tklButton.addEventListener("click", () => {
+    loadLine(TrainLine.TKL);
   });
 
 });

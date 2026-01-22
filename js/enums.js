@@ -23,6 +23,12 @@ export const TrainLine = Object.freeze({
         enName: 'Island Line',
         zhName: '港島綫'
     },
+    TKL: {
+        lineCode: 'TKL',
+        lineColor: '#7D499D',
+        enName: 'Tseung Kwan O Line',
+        zhName: '將軍澳綫'
+    },
 
     // Helper methods
     fromCode(code) {

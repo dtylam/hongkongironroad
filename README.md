@@ -13,3 +13,12 @@ npm install -g http-server
 
 http-server -c-1 
 ``` 
+
+Minify CSS
+```bash
+# install on first run
+npm install clean-css-cli -g
+
+# watch for changes
+cleancss --watch -o css/styles.min.css css/styles.css
+```

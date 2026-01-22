@@ -132,6 +132,15 @@ span.card-title {
     border-color: #7D499D;
 }
 
+#sil-button {
+    --sl-color-primary-600: #99cf16;
+    --sl-color-primary-500: #99cf16;
+}
+
+#sil-button::part(base) {
+    border-color: #99cf16;
+}
+
 h3#current-line {
     border-top: 1px solid;
     border-bottom: 1px solid;
@@ -141,6 +150,11 @@ h3#current-line {
 
 body {
     font-family: Helvetica, sans-serif;
+}
+
+footer {
+    font-size: 0.8em;
+    text-align: right;
 }
 
 @media (prefers-color-scheme: light) {

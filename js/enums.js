@@ -29,6 +29,12 @@ export const TrainLine = Object.freeze({
         enName: 'Tseung Kwan O Line',
         zhName: '將軍澳綫'
     },
+    SIL: {
+        lineCode: 'SIL',
+        lineColor: '#99cf16',
+        enName: 'South Island Line',
+        zhName: '南港島綫'
+    },
 
     // Helper methods
     fromCode(code) {

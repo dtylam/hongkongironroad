@@ -78,6 +78,11 @@ document.addEventListener("DOMContentLoaded", function () {
     loadLine(TrainLine.TKL);
   });
 
+  const silButton = document.getElementById("sil-button");
+  silButton.addEventListener("click", () => {
+    loadLine(TrainLine.SIL);
+  });
+
 });
 
 function loadLine(trainLine) {

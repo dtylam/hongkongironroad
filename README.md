@@ -19,6 +19,6 @@ Minify CSS
 # install on first run
 npm install clean-css-cli -g
 
-# watch for changes
+# watch for changes during development
 cleancss --watch -o css/styles.min.css css/styles.css
 ```

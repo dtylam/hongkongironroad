@@ -1,0 +1,62 @@
+[
+    {
+        "lineCode": "SIL",
+        "direction": "UT",
+        "stationCode": "ADM",
+        "stationId": 2,
+        "zhName": "金鐘",
+        "jyutping": "gam1 zung1",
+        "enName": "Admiralty",
+        "enTransliteration": "golden bell",
+        "sequence": 1,
+        "pinyin": "jīn zhōng"
+    },
+    {
+        "lineCode": "SIL",
+        "direction": "UT",
+        "stationCode": "OCP",
+        "stationId": 86,
+        "zhName": "海洋公園",
+        "jyutping": "hoi2 joeng4 gung1 jyun4",
+        "enName": "Ocean Park",
+        "enTransliteration": "ocean park",
+        "sequence": 2,
+        "pinyin": "hǎi yáng gōng yuán"
+    },
+    {
+        "lineCode": "SIL",
+        "direction": "UT",
+        "stationCode": "WCH",
+        "stationId": 87,
+        "zhName": "黃竹坑",
+        "jyutping": "wong4 zuk1 haang1",
+        "enName": "Wong Chuk Hang",
+        "enTransliteration": "yellow bamboo pit",
+        "sequence": 3,
+        "pinyin": "huáng zhú kēng"
+    },
+    {
+        "lineCode": "SIL",
+        "direction": "UT",
+        "stationCode": "LET",
+        "stationId": 88,
+        "zhName": "利東",
+        "jyutping": "lei6 dung1",
+        "enName": "Lei Tung",
+        "enTransliteration": "benefit east",
+        "sequence": 4,
+        "pinyin": "lì dōng"
+    },
+    {
+        "lineCode": "SIL",
+        "direction": "UT",
+        "stationCode": "SOH",
+        "stationId": 89,
+        "zhName": "海怡半島",
+        "jyutping": "hoi2 ji4 bun3 dou2",
+        "enName": "South Horizons",
+        "enTransliteration": "sea joy peninsula",
+        "sequence": 5,
+        "pinyin": "hǎi yí bàn dǎo"
+    }
+]

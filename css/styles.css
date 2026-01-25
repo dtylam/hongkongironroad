@@ -141,6 +141,15 @@ span.card-title {
     border-color: #99cf16;
 }
 
+#twl-button {
+    --sl-color-primary-600: #ED1D24;
+    --sl-color-primary-500: #ED1D24;
+}
+
+#twl-button::part(base) {
+    border-color: #ED1D24;
+}
+
 h3#current-line {
     border-top: 1px solid;
     border-bottom: 1px solid;

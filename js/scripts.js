@@ -83,6 +83,11 @@ document.addEventListener("DOMContentLoaded", function () {
     loadLine(TrainLine.SIL);
   });
 
+  const twlButton = document.getElementById("twl-button");
+  twlButton.addEventListener("click", () => {
+    loadLine(TrainLine.TWL);
+  });
+
 });
 
 function loadLine(trainLine) {

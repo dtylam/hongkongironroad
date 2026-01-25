@@ -18,6 +18,8 @@ function createCarouselItem(templateElement, item) {
     carouselItem.querySelector(".en-name").textContent = item.enName;
     carouselItem.querySelector(".jyutping").textContent = item.jyutping;
     carouselItem.querySelector(".pinyin").textContent = item.pinyin;
+    const story = item.enStory ? item.enStory.replace(/\. /g, '.<br>') : '';
+    carouselItem.querySelector(".en-story").innerHTML = story;
     return carouselItem;
 }
 

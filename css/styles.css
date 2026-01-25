@@ -13,7 +13,44 @@
 }
 
 .stations-carousel {
-    min-height: 27em;
+    min-height: 80vh;
+}
+
+.station-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 26em;
+    overflow-y: auto;
+}
+
+.story-container {
+    margin-top: 1em;
+}
+
+p.en-story {
+    font-size: 1em;
+    line-height: 1.4;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .stations-carousel {
+        min-height: auto;
+        max-height: 30em;
+    }
+
+    .station-item-wrapper {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .story-container {
+        margin-top: 0;
+        margin-left: 2em;
+        flex: 1;
+        max-width: 50%;
+    }
 }
 
 div.station-circle {

@@ -9,7 +9,7 @@ With a bit of help from [Shoelace](https://shoelace.style/)!
 Run locally to debug (this avoids cors problems with local json files):
 ```bash
 # install on first run
-npm install -g http-server
+# npm install -g http-server
 
 http-server -c-1 
 ``` 
@@ -17,7 +17,7 @@ http-server -c-1
 Minify CSS
 ```bash
 # install on first run
-npm install clean-css-cli -g
+# npm install clean-css-cli -g
 
 # watch for changes during development
 cleancss --watch -o css/styles.min.css css/styles.css

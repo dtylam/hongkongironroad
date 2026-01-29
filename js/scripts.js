@@ -90,6 +90,11 @@ document.addEventListener("DOMContentLoaded", function () {
     loadLine(TrainLine.TWL);
   });
 
+  const ktlButton = document.getElementById("ktl-button");
+  ktlButton.addEventListener("click", () => {
+    loadLine(TrainLine.KTL);
+  });
+
 });
 
 function loadLine(trainLine) {

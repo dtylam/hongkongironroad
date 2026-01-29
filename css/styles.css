@@ -169,6 +169,15 @@ span.card-title {
     border-color: #7D499D;
 }
 
+#ktl-button {
+    --sl-color-primary-600: #00AB4E;
+    --sl-color-primary-500: #00AB4E;
+}
+
+#ktl-button::part(base) {
+    border-color: #00AB4E;
+}
+
 #sil-button {
     --sl-color-primary-600: #99cf16;
     --sl-color-primary-500: #99cf16;

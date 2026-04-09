@@ -4,83 +4,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore literal translations of Hong Kong railway (MTR) station names. Learn about the translation nuances, cultural context, and interesting facts behind the Chinese and English names of these places.">
+    <meta name="description"
+        content="Explore literal translations of Hong Kong railway (MTR) station names. Learn about the translation nuances, cultural context, and interesting facts behind the Chinese and English names of these places.">
     <title>Hong Kong Iron Road</title>
     <link rel="preload" href="css/styles.min.css" as="style" onload="this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="css/styles.min.css"></noscript>
+    <noscript>
+        <link rel="stylesheet" href="css/styles.min.css">
+    </noscript>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap" as="style" onload="this.rel='stylesheet'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap" rel="stylesheet"></noscript>
-
-    <link rel="preload" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css" as="style" media="(prefers-color-scheme:light)" onload="this.rel='stylesheet'">
-    <link rel="preload" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/dark.css" as="style" media="(prefers-color-scheme:dark)" onload="this.rel='stylesheet';document.documentElement.classList.add('sl-theme-dark');">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap"
+        as="style" onload="this.rel='stylesheet'">
     <noscript>
-        <link rel="stylesheet" media="(prefers-color-scheme:light)" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css">
-        <link rel="stylesheet" media="(prefers-color-scheme:dark)" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/dark.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap" rel="stylesheet">
+    </noscript>
+
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/@awesome.me/webawesome@3.2.1/dist/styles/webawesome.css"
+        as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@awesome.me/webawesome@3.2.1/dist/styles/webawesome.css">
     </noscript>
 
     <script type="module" src="js/scripts.js"></script>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace-autoloader.js"></script>
+    <script type="module"
+        src="https://cdn.jsdelivr.net/npm/@awesome.me/webawesome@3.2.1/dist-cdn/webawesome.loader.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1>香港鐵路<br />Hong Kong Iron Road</h1>
+    <header class="site-header">
+        <h1 class="site-title"><span class="zh">香港鐵路 · </span>Hong Kong Iron Road</h1>
+        <section>
+            <p><span class="zh">香港鐵路 · 站名典 · 直譯版</span><br />Hong Kong railway stations names. Literally.</p>
+        </section>
     </header>
     <main>
-        <section>
-            <p>香港鐵路站名典·直譯版 Hong Kong railway stations. In literal translations.</p>
-        </section>
-        <sl-drawer label="Pick Your Line" class="pick-line-drawer">
+        <wa-drawer label="Pick Your Line" class="pick-line-drawer">
             <ul>
                 <li>
-                    <sl-badge variant="neutral">1910</sl-badge>
-                    <sl-button id="eal-button" outline>東鐵綫 East Rail Line</sl-button>
+                    <wa-badge variant="neutral">1910</wa-badge>
+                    <wa-button id="eal-button" variant="neutral" appearance="outlined">東鐵綫 East Rail Line</wa-button>
                 </li>
                 <li>
-                    <sl-badge variant="neutral">1979</sl-badge>
-                    <sl-button id="ktl-button" outline>觀塘綫 Kwun Tong Line</sl-button>
+                    <wa-badge variant="neutral">1979</wa-badge>
+                    <wa-button id="ktl-button" variant="neutral" appearance="outlined">觀塘綫 Kwun Tong Line</wa-button>
                 </li>
                 <li>
-                    <sl-badge variant="neutral">1982</sl-badge>
-                    <sl-button id="twl-button" outline>荃灣綫 Tsuen Wan Line</sl-button>
+                    <wa-badge variant="neutral">1982</wa-badge>
+                    <wa-button id="twl-button" variant="neutral" appearance="outlined">荃灣綫 Tsuen Wan Line</wa-button>
                 </li>
                 <li>
-                    <sl-badge variant="neutral">1985</sl-badge>
-                    <sl-button id="isl-button" outline>港島綫 Island Line</sl-button>
+                    <wa-badge variant="neutral">1985</wa-badge>
+                    <wa-button id="isl-button" variant="neutral" appearance="outlined">港島綫 Island Line</wa-button>
                 </li>
                 <li>
-                    <sl-badge variant="neutral">1998</sl-badge>
-                    <sl-button id="ael-button" outline>機場快綫 Airport Express</sl-button>
+                    <wa-badge variant="neutral">1998</wa-badge>
+                    <wa-button id="ael-button" variant="neutral" appearance="outlined">機場快綫 Airport Express</wa-button>
                 </li>
                 <li>
-                    <sl-badge variant="neutral">1998</sl-badge>
-                    <sl-button id="tcl-button" outline>東涌綫 Tung Chung Line</sl-button>
+                    <wa-badge variant="neutral">1998</wa-badge>
+                    <wa-button id="tcl-button" variant="neutral" appearance="outlined">東涌綫 Tung Chung Line</wa-button>
                 </li>
                 <li>
-                    <sl-badge variant="neutral">2002</sl-badge>
-                    <sl-button id="tkl-button" outline>將軍澳綫 Tseung Kwan O Line</sl-button>
+                    <wa-badge variant="neutral">2002</wa-badge>
+                    <wa-button id="tkl-button" variant="neutral" appearance="outlined">將軍澳綫 Tseung Kwan O
+                        Line</wa-button>
                 </li>
                 <li>
-                    <sl-badge variant="neutral">2016</sl-badge>
-                    <sl-button id="sil-button" outline>南港島綫 South Island Line</sl-button>
+                    <wa-badge variant="neutral">2016</wa-badge>
+                    <wa-button id="sil-button" variant="neutral" appearance="outlined">南港島綫 South Island
+                        Line</wa-button>
                 </li>
             </ul>
-        </sl-drawer>
-        <sl-button id="pick-line-button" variant="neutral">Pick Your Line</sl-button>
+        </wa-drawer>
+        <wa-button id="pick-line-button" variant="neutral">Pick Your Line</wa-button>
         <section>
             <h3 id="current-line"></h3>
-            <sl-carousel class="stations-carousel" autoplay autoplay-interval="4500" looping pagination navigation>
-                <!-- New sl-carousel-item elements will be injected here -->
-            </sl-carousel>
+            <wa-carousel class="stations-carousel" autoplay autoplay-interval="4500" loop pagination navigation>
+                <!-- New wa-carousel-item elements will be injected here -->
+            </wa-carousel>
         </section>
     </main>
     <footer>
         <br />
         <br />
-        <p>&copy; 2025 Hong Kong Iron Road; Contribute on <a href="https://github.com/dtylam/hongkongironroad">Github</a></p>
+        <p>&copy; 2025 - 2026 Hong Kong Iron Road; Contribute on <a
+                href="https://github.com/dtylam/hongkongironroad">Github</a></p>
         <p>See also the <a href="https://literalchinesedictionary.com/">Literal Chinese Dictionary</a></p>
     </footer>
 </body>

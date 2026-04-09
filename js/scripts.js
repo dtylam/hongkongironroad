@@ -45,11 +45,25 @@ async function populateCarouselItems(data) {
 
 // ready function
 document.addEventListener("DOMContentLoaded", function () {
+  const header = document.querySelector('.site-header');
+  const compactThreshold = 36;
+  if (header) {
+    const updateHeaderState = () => {
+      header.classList.toggle('is-compact', window.scrollY > compactThreshold);
+    };
+    updateHeaderState();
+    window.addEventListener('scroll', updateHeaderState, { passive: true });
+  }
+
   const drawer = document.querySelector('.pick-line-drawer');
   const openButton = document.querySelector('#pick-line-button');
-  const closeButtons = drawer.querySelectorAll('ul li sl-button');
-  openButton.addEventListener('click', () => drawer.show());
-  closeButtons.forEach(button => button.addEventListener('click', () => drawer.hide()));
+  const closeButtons = drawer.querySelectorAll('ul li wa-button');
+  openButton.addEventListener('click', () => {
+    drawer.open = true;
+  });
+  closeButtons.forEach(button => button.addEventListener('click', () => {
+    drawer.open = false;
+  }));
 
   const allLines = Object.values(TrainLine).filter(value => typeof value === 'object' && value.lineCode);;
   const randomLine = allLines[Math.floor(Math.random() * allLines.length)];
@@ -104,12 +118,12 @@ function loadLine(trainLine) {
     .then((data) => {
       // console.debug(data);
       populateCarouselItems(data);
-      document.getElementById("current-line").textContent = '📌 ' +trainLine.zhName + ' ' + trainLine.enName;
-      document.getElementById("current-line").style.color = trainLine.lineColor;
+      const currentLineEl = document.getElementById("current-line");
+      currentLineEl.innerHTML = `📌 <span class="zh">${trainLine.zhName}</span> ${trainLine.enName}`;
+      currentLineEl.style.color = trainLine.lineColor;
     })
     .catch((error) => {
       // Your code to handle any errors
       console.debug("Error fetching JSON:", error);
     });
 }
-

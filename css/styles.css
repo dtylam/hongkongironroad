@@ -1,5 +1,8 @@
 .station-card {
     min-width: 240px;
+    width: 100%;
+    max-width: 34rem;
+    margin: 0;
 }
 
 .station-card [slot='header'] {
@@ -13,18 +16,27 @@
 }
 
 .stations-carousel {
-    min-height: 80vh;
+    min-height: 35em;
 }
 
 .station-item-wrapper {
     display: flex;
     flex-direction: column;
-    min-height: 26em;
+    align-items: center;
+    gap: 0.75rem;
+    min-height: 32em;
     overflow-y: auto;
 }
 
+.station-story-details {
+    display: block;
+    width: 100%;
+    max-width: 34rem;
+    margin: 0;
+}
+
 .story-container {
-    margin-top: 1em;
+    margin-top: 0.25em;
 }
 
 p.en-story {
@@ -36,20 +48,25 @@ p.en-story {
 @media (min-width: 768px) {
     .stations-carousel {
         min-height: auto;
-        max-height: 30em;
+        max-height: 32em;
     }
 
     .station-item-wrapper {
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
+        gap: 1.25rem;
+        max-width: 72rem;
+        margin: 0 auto;
     }
 
-    .story-container {
+    .station-card {
+        max-width: 32rem;
+    }
+
+    .station-story-details {
+        max-width: 28rem;
         margin-top: 0;
-        margin-left: 2em;
-        flex: 1;
-        max-width: 50%;
     }
 }
 

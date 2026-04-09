@@ -37,10 +37,22 @@ async function populateCarouselItems(data) {
             const carouselItem = createCarouselItem(templateElement, item);
             carousel.appendChild(carouselItem);
         });
+        syncStoryDetailsForViewport();
         carousel.goToSlide(0);
     } catch (error) {
         console.error("Error fetching template:", error);
     }
+}
+
+function syncStoryDetailsForViewport() {
+    const isWideViewport = window.matchMedia("(min-width: 768px)").matches;
+    document.querySelectorAll(".station-story-details").forEach((details) => {
+        if (isWideViewport) {
+            details.setAttribute("open", "");
+            return;
+        }
+        details.removeAttribute("open");
+    });
 }
 
 // ready function
@@ -66,6 +78,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const allLines = Object.values(TrainLine).filter(value => typeof value === 'object' && value.lineCode);
   const lineByCode = new Map(allLines.map(line => [line.lineCode, line]));
   const lineButtons = document.querySelectorAll('wa-button[data-line]');
+  const wideViewportQuery = window.matchMedia("(min-width: 768px)");
+  wideViewportQuery.addEventListener("change", syncStoryDetailsForViewport);
 
   lineButtons.forEach(button => {
     button.addEventListener('click', () => {

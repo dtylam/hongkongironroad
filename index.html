@@ -41,44 +41,80 @@
     </header>
     <main>
         <wa-drawer label="Pick Your Line" class="pick-line-drawer">
-            <ul>
-                <li>
+            <ul class="line-picker-list">
+                <li class="line-picker-item">
                     <wa-badge variant="neutral">1910</wa-badge>
-                    <wa-button id="eal-button" variant="neutral" appearance="outlined">東鐵綫 East Rail Line</wa-button>
+                    <wa-button id="eal-button" class="line-picker-button" data-line="EAL" variant="neutral" appearance="outlined">東鐵綫 East Rail Line</wa-button>
                 </li>
-                <li>
+                <li class="line-picker-item">
                     <wa-badge variant="neutral">1979</wa-badge>
-                    <wa-button id="ktl-button" variant="neutral" appearance="outlined">觀塘綫 Kwun Tong Line</wa-button>
+                    <wa-button id="ktl-button" class="line-picker-button" data-line="KTL" variant="neutral" appearance="outlined">觀塘綫 Kwun Tong Line</wa-button>
                 </li>
-                <li>
+                <li class="line-picker-item">
                     <wa-badge variant="neutral">1982</wa-badge>
-                    <wa-button id="twl-button" variant="neutral" appearance="outlined">荃灣綫 Tsuen Wan Line</wa-button>
+                    <wa-button id="twl-button" class="line-picker-button" data-line="TWL" variant="neutral" appearance="outlined">荃灣綫 Tsuen Wan Line</wa-button>
                 </li>
-                <li>
+                <li class="line-picker-item">
                     <wa-badge variant="neutral">1985</wa-badge>
-                    <wa-button id="isl-button" variant="neutral" appearance="outlined">港島綫 Island Line</wa-button>
+                    <wa-button id="isl-button" class="line-picker-button" data-line="ISL" variant="neutral" appearance="outlined">港島綫 Island Line</wa-button>
                 </li>
-                <li>
+                <li class="line-picker-item">
                     <wa-badge variant="neutral">1998</wa-badge>
-                    <wa-button id="ael-button" variant="neutral" appearance="outlined">機場快綫 Airport Express</wa-button>
+                    <wa-button id="ael-button" class="line-picker-button" data-line="AEL" variant="neutral" appearance="outlined">機場快綫 Airport Express</wa-button>
                 </li>
-                <li>
+                <li class="line-picker-item">
                     <wa-badge variant="neutral">1998</wa-badge>
-                    <wa-button id="tcl-button" variant="neutral" appearance="outlined">東涌綫 Tung Chung Line</wa-button>
+                    <wa-button id="tcl-button" class="line-picker-button" data-line="TCL" variant="neutral" appearance="outlined">東涌綫 Tung Chung Line</wa-button>
                 </li>
-                <li>
+                <li class="line-picker-item">
                     <wa-badge variant="neutral">2002</wa-badge>
-                    <wa-button id="tkl-button" variant="neutral" appearance="outlined">將軍澳綫 Tseung Kwan O
+                    <wa-button id="tkl-button" class="line-picker-button" data-line="TKL" variant="neutral" appearance="outlined">將軍澳綫 Tseung Kwan O
                         Line</wa-button>
                 </li>
-                <li>
+                <li class="line-picker-item">
                     <wa-badge variant="neutral">2016</wa-badge>
-                    <wa-button id="sil-button" variant="neutral" appearance="outlined">南港島綫 South Island
+                    <wa-button id="sil-button" class="line-picker-button" data-line="SIL" variant="neutral" appearance="outlined">南港島綫 South Island
                         Line</wa-button>
                 </li>
             </ul>
         </wa-drawer>
-        <wa-button id="pick-line-button" variant="neutral">Pick Your Line</wa-button>
+        <wa-button id="pick-line-button" appearance="filled-outlined" variant="neutral">Pick Your Line</wa-button>
+        <section class="line-picker-scroll" aria-label="Pick Your Line">
+            <ul class="line-picker-list" role="list">
+                <li class="line-picker-item">
+                    <wa-badge variant="neutral">1910</wa-badge>
+                    <wa-button class="line-picker-button" data-line="EAL" variant="neutral" appearance="outlined">東鐵綫 East Rail Line</wa-button>
+                </li>
+                <li class="line-picker-item">
+                    <wa-badge variant="neutral">1979</wa-badge>
+                    <wa-button class="line-picker-button" data-line="KTL" variant="neutral" appearance="outlined">觀塘綫 Kwun Tong Line</wa-button>
+                </li>
+                <li class="line-picker-item">
+                    <wa-badge variant="neutral">1982</wa-badge>
+                    <wa-button class="line-picker-button" data-line="TWL" variant="neutral" appearance="outlined">荃灣綫 Tsuen Wan Line</wa-button>
+                </li>
+                <li class="line-picker-item">
+                    <wa-badge variant="neutral">1985</wa-badge>
+                    <wa-button class="line-picker-button" data-line="ISL" variant="neutral" appearance="outlined">港島綫 Island Line</wa-button>
+                </li>
+                <li class="line-picker-item">
+                    <wa-badge variant="neutral">1998</wa-badge>
+                    <wa-button class="line-picker-button" data-line="AEL" variant="neutral" appearance="outlined">機場快綫 Airport Express</wa-button>
+                </li>
+                <li class="line-picker-item">
+                    <wa-badge variant="neutral">1998</wa-badge>
+                    <wa-button class="line-picker-button" data-line="TCL" variant="neutral" appearance="outlined">東涌綫 Tung Chung Line</wa-button>
+                </li>
+                <li class="line-picker-item">
+                    <wa-badge variant="neutral">2002</wa-badge>
+                    <wa-button class="line-picker-button" data-line="TKL" variant="neutral" appearance="outlined">將軍澳綫 Tseung Kwan O Line</wa-button>
+                </li>
+                <li class="line-picker-item">
+                    <wa-badge variant="neutral">2016</wa-badge>
+                    <wa-button class="line-picker-button" data-line="SIL" variant="neutral" appearance="outlined">南港島綫 South Island Line</wa-button>
+                </li>
+            </ul>
+        </section>
         <section>
             <h3 id="current-line"></h3>
             <wa-carousel class="stations-carousel" autoplay autoplay-interval="4500" loop pagination navigation>

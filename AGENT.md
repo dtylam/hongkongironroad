@@ -17,6 +17,6 @@ http-server -c-1
 ## Editing Rules
 - Keep dependencies minimal (prefer vanilla JS/CSS).
 - Use Web Awesome framework components.
-- Update minified CSS when changing `css/styles.css` by running cli command like `cleancss -o css/styles.min.css css/styles.css`.
+- don't sync the styles.min.css because the user is using a background process to update that.
 - Preserve existing data schema in `data/*.json`.
 - Keep UI and copy concise and readable.

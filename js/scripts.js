@@ -57,58 +57,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const drawer = document.querySelector('.pick-line-drawer');
   const openButton = document.querySelector('#pick-line-button');
-  const closeButtons = drawer.querySelectorAll('ul li wa-button');
-  openButton.addEventListener('click', () => {
-    drawer.open = true;
-  });
-  closeButtons.forEach(button => button.addEventListener('click', () => {
-    drawer.open = false;
-  }));
+  if (openButton && drawer) {
+    openButton.addEventListener('click', () => {
+      drawer.open = true;
+    });
+  }
 
-  const allLines = Object.values(TrainLine).filter(value => typeof value === 'object' && value.lineCode);;
+  const allLines = Object.values(TrainLine).filter(value => typeof value === 'object' && value.lineCode);
+  const lineByCode = new Map(allLines.map(line => [line.lineCode, line]));
+  const lineButtons = document.querySelectorAll('wa-button[data-line]');
+
+  lineButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const selectedLine = lineByCode.get(button.dataset.line);
+      if (!selectedLine) {
+        return;
+      }
+      loadLine(selectedLine);
+      if (drawer && drawer.contains(button)) {
+        drawer.open = false;
+      }
+    });
+  });
+
   const randomLine = allLines[Math.floor(Math.random() * allLines.length)];
   loadLine(randomLine);
-
-  const ealButton = document.getElementById("eal-button");
-  ealButton.addEventListener("click", () => {
-    loadLine(TrainLine.EAL);
-  });
-
-  const aelButton = document.getElementById("ael-button");
-  aelButton.addEventListener("click", () => {
-    loadLine(TrainLine.AEL);
-  });
-
-  const tclButton = document.getElementById("tcl-button");
-  tclButton.addEventListener("click", () => {
-    loadLine(TrainLine.TCL);
-  });
-
-  const islButton = document.getElementById("isl-button");
-  islButton.addEventListener("click", () => {
-    loadLine(TrainLine.ISL);
-  });
-
-  const tklButton = document.getElementById("tkl-button");
-  tklButton.addEventListener("click", () => {
-    loadLine(TrainLine.TKL);
-  });
-
-  const silButton = document.getElementById("sil-button");
-  silButton.addEventListener("click", () => {
-    loadLine(TrainLine.SIL);
-  });
-
-  const twlButton = document.getElementById("twl-button");
-  twlButton.addEventListener("click", () => {
-    loadLine(TrainLine.TWL);
-  });
-
-  const ktlButton = document.getElementById("ktl-button");
-  ktlButton.addEventListener("click", () => {
-    loadLine(TrainLine.KTL);
-  });
-
 });
 
 function loadLine(trainLine) {

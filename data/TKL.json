@@ -9,7 +9,8 @@
         "enName": "Po Lam",
         "enTransliteration": "precious gem",
         "sequence": 1,
-        "pinyin": "bǎo lín"
+        "pinyin": "bǎo lín",
+        "enStory": "Po Lam is a modern neighborhood name with auspicious character choices that suggest treasure and elegance, typical of new-town era naming. The area grew as part of Tseung Kwan O's large-scale residential planning in the late twentieth century. Its station reflects that planned expansion, where newly coined names quickly became permanent parts of Hong Kong's mental map."
     },
     {
         "lineCode": "TKL",
@@ -21,7 +22,8 @@
         "enName": "Hang Hau",
         "enTransliteration": "pit mouth",
         "sequence": 2,
-        "pinyin": "kēng kǒu"
+        "pinyin": "kēng kǒu",
+        "enStory": "Hang Hau developed from an older market-village zone serving surrounding rural communities in the Clear Water Bay hinterland. The name likely reflects local terrain and settlement position at an opening between hills and coast. As Tseung Kwan O new-town growth accelerated, the station turned this historic local center into a key urban transport node."
     },
     {
         "lineCode": "TKL",
@@ -33,7 +35,8 @@
         "enName": "LOHAS Park",
         "enTransliteration": "health city",
         "sequence": 8,
-        "pinyin": "kāng chéng"
+        "pinyin": "kāng chéng",
+        "enStory": "LOHAS Park is a brand-led modern toponym tied to one of Hong Kong's largest transit-oriented residential developments. Its Chinese name Kang Cheng emphasizes wellness and urban aspiration rather than inherited village geography. The station marks a contemporary phase where rail infrastructure and private mega-estates create new place identities almost overnight."
     },
     {
         "lineCode": "TKL",
@@ -45,7 +48,8 @@
         "enName": "Tseung Kwan O",
         "enTransliteration": "general bay",
         "sequence": 3,
-        "pinyin": "jiāng jūn ào"
+        "pinyin": "jiāng jūn ào",
+        "enStory": "Tseung Kwan O's name is often linked to older military associations around Junk Bay's strategic coastal setting. For much of modern history it remained a peripheral landscape of villages, quarries, and industrial uses. Its transformation into a major new town made the station a centerpiece of one of Hong Kong's most ambitious planned urban expansions."
     },
     {
         "lineCode": "TKL",
@@ -57,7 +61,8 @@
         "enName": "Tiu Keng Leng",
         "enTransliteration": "adjust view ridge",
         "sequence": 4,
-        "pinyin": "tiáo jǐng lǐng"
+        "pinyin": "tiáo jǐng lǐng",
+        "enStory": "Tiu Keng Leng was once known internationally as Rennie's Mill, after a failed late nineteenth-century industrial venture on Junk Bay's edge. The later Chinese name is tied to local reinterpretation and folk etymology, reflecting how communities renamed the place over time. Mid-twentieth-century refugee settlement then gave the district a distinctive social history before high-rise redevelopment transformed it."
     },
     {
         "lineCode": "TKL",
@@ -69,7 +74,8 @@
         "enName": "Yau Tong",
         "enTransliteration": "oil pond",
         "sequence": 5,
-        "pinyin": "yóu táng"
+        "pinyin": "yóu táng",
+        "enStory": "Yau Tong's name preserves memories of an older coastal landscape of inlets, yards, and practical waterfront uses rather than a planned town center. For decades the area was defined by shipyards, quarries, and industrial activity along eastern Kowloon. Its station now serves dense housing built over that former industrial fringe, where the place name outlived the shoreline economy that formed it."
     },
     {
         "lineCode": "TKL",
@@ -81,7 +87,8 @@
         "enName": "Quarry Bay",
         "enTransliteration": "carp fish gush",
         "sequence": 6,
-        "pinyin": "zéi yú chōng"
+        "pinyin": "zéi yú chōng",
+        "enStory": "Quarry Bay's English name records the stone-quarrying industry that once dominated this stretch of eastern Hong Kong Island. The Chinese toponym references a stream valley, showing how dual naming captured both natural form and colonial economy. Over time it evolved into a major office and residential node, with the station at the center of that transformation."
     },
     {
         "lineCode": "TKL",
@@ -93,6 +100,7 @@
         "enName": "North Point",
         "enTransliteration": "north corner",
         "sequence": 7,
-        "pinyin": "běi jiǎo"
+        "pinyin": "běi jiǎo",
+        "enStory": "North Point began as a literal point on the island's northeastern shore, then developed into a mixed residential and industrial district in the twentieth century. It also became known for significant migration waves, including a strong Shanghainese community that shaped food and business culture. The station reflects that history of shoreline growth, migration, and urban layering."
     }
 ]

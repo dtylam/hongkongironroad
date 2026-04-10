@@ -22,7 +22,8 @@
         "enName": "Tai Wo Hau",
         "enTransliteration": "big nest mouth",
         "sequence": 2,
-        "pinyin": "dà wō kǒu"
+        "pinyin": "dà wō kǒu",
+        "enStory": "Tai Wo Hau reflects older valley geography, with hau often describing a mouth-like opening between hills and settlements. Before full urbanization, the area sat between village edges and upland routes in west New Territories. The station name preserves that terrain-based toponym even as surrounding land became dense housing and transport infrastructure."
     },
     {
         "lineCode": "TWL",
@@ -34,7 +35,8 @@
         "enName": "Kwai Hing",
         "enTransliteration": "mallows prosper",
         "sequence": 3,
-        "pinyin": "kuí xīng"
+        "pinyin": "kuí xīng",
+        "enStory": "Kwai Hing was named through modern estate-era place making, sharing the Kwai prefix used across the wider Kwai Chung district. The area grew rapidly with public housing and industry during postwar expansion in the western New Territories corridor. Its station captures that shift from peri-urban fringe to a fully urban community tied tightly to the metro network."
     },
     {
         "lineCode": "TWL",
@@ -46,7 +48,8 @@
         "enName": "Kwai Fong",
         "enTransliteration": "mallows fragrant",
         "sequence": 4,
-        "pinyin": "kuí fāng"
+        "pinyin": "kuí fāng",
+        "enStory": "Kwai Fong is another planned-era name built around the Kwai Chung district identity, with fong adding an auspicious, refined tone. The neighborhood emerged through late twentieth-century housing and commercial development rather than old village lineage centers. The station later became a major node for new-town commuting, giving the modern name long-term permanence."
     },
     {
         "lineCode": "TWL",
@@ -58,7 +61,8 @@
         "enName": "Lai King",
         "enTransliteration": "lychee view",
         "sequence": 5,
-        "pinyin": "lì jǐng"
+        "pinyin": "lì jǐng",
+        "enStory": "Lai King takes an auspicious modern housing-estate name rather than an older village toponym, typical of late twentieth-century urban expansion. The characters suggest scenic quality and prosperity, part of a broader naming culture for new residential districts. Its interchange role later gave the name citywide familiarity far beyond the hillside neighborhood it first described."
     },
     {
         "lineCode": "TWL",
@@ -83,7 +87,8 @@
         "enName": "Lai Chi Kok",
         "enTransliteration": "lychee corner",
         "sequence": 7,
-        "pinyin": "lì zhī jiǎo"
+        "pinyin": "lì zhī jiǎo",
+        "enStory": "Lai Chi Kok's name recalls a coastal point once associated with lychee groves and shoreline settlement patterns. In the twentieth century the district became known for factories, warehousing, and later wholesale and office uses. The station sits at the center of that transition, where an orchard-era toponym survives inside a heavily urbanized landscape."
     },
     {
         "lineCode": "TWL",
@@ -95,7 +100,8 @@
         "enName": "Cheung Sha Wan",
         "enTransliteration": "long sand bay",
         "sequence": 8,
-        "pinyin": "cháng shā wān"
+        "pinyin": "cháng shā wān",
+        "enStory": "Cheung Sha Wan literally preserves the memory of a long sandy bay that existed before extensive reclamation reshaped west Kowloon. The district later became a major industrial and manufacturing zone, then shifted toward housing and services. Its station keeps that coastal place memory visible in a neighborhood now far removed from its original shoreline."
     },
     {
         "lineCode": "TWL",
@@ -107,7 +113,8 @@
         "enName": "Sham Shui Po",
         "enTransliteration": "deep water step",
         "sequence": 9,
-        "pinyin": "shēn shuǐ bù"
+        "pinyin": "shēn shuǐ bù",
+        "enStory": "Sham Shui Po's name points to an older waterside landing area, with po suggesting a shore or pier-like edge for local movement and trade. It grew from market-town and port-fringe functions into one of Kowloon's most working-class and entrepreneurial districts. The station anchors that layered history, where old street commerce still coexists with constant urban renewal."
     },
     {
         "lineCode": "TWL",
@@ -132,7 +139,8 @@
         "enName": "Mong Kok",
         "enTransliteration": "prosperous corner",
         "sequence": 11,
-        "pinyin": "wàng jiǎo"
+        "pinyin": "wàng jiǎo",
+        "enStory": "Mong Kok grew from market streets and transport routes into one of the densest commercial districts on earth. The name's sense of a busy corner matches its long history of trading, entertainment, and constant pedestrian flow. The station channels that intensity, anchoring an area where old street markets and modern malls coexist in tight urban layers."
     },
     {
         "lineCode": "TWL",
@@ -144,7 +152,8 @@
         "enName": "Yau Ma Tei",
         "enTransliteration": "oil hemp land",
         "sequence": 12,
-        "pinyin": "yóu má dì"
+        "pinyin": "yóu má dì",
+        "enStory": "Yau Ma Tei's name is rooted in older shoreline industries and crops, recalling a time when this was a working waterfront fringe rather than inner-city core. Fishing communities, typhoon shelters, temples, and wholesale markets later shaped its neighborhood character. The station preserves that layered past in a district where colonial-era streets still meet intense modern urban life."
     },
     {
         "lineCode": "TWL",
@@ -169,7 +178,8 @@
         "enName": "Tsim Sha Tsui",
         "enTransliteration": "sharp sand mouth",
         "sequence": 14,
-        "pinyin": "jiān shā zuǐ"
+        "pinyin": "jiān shā zuǐ",
+        "enStory": "Tsim Sha Tsui's name describes a pointed sandy headland that once projected into Victoria Harbour before major shoreline changes. It developed from military and transport edges into one of Hong Kong's premier retail, tourism, and cultural districts. The station now sits beneath that globalized waterfront zone while preserving the original coastal image in its name."
     },
     {
         "lineCode": "TWL",
@@ -181,7 +191,8 @@
         "enName": "Admiralty",
         "enTransliteration": "golden bell",
         "sequence": 15,
-        "pinyin": "jīn zhōng"
+        "pinyin": "jīn zhōng",
+        "enStory": "Admiralty keeps a colonial-era English name from nearby naval grounds, while its Chinese name Jin Zhong preserves the older toponym Golden Bell. The area evolved from military and government land into one of Hong Kong's key civic and business districts. As multiple rail lines converged here, the station became a symbolic center of administration, commerce, and public life."
     },
     {
         "lineCode": "TWL",
@@ -193,6 +204,7 @@
         "enName": "Central",
         "enTransliteration": "central ring",
         "sequence": 16,
-        "pinyin": "zhōng huán"
+        "pinyin": "zhōng huán",
+        "enStory": "Central's Chinese name Zhong Huan reflects its position in the old ring of early urban districts on the north shore of Hong Kong Island. From colonial administration to global finance, the area became the city's most concentrated center of institutional power and commerce. The station name is simple, but it carries the core story of Hong Kong's urban and economic formation."
     }
 ]

@@ -9,7 +9,8 @@
         "enName": "Kennedy Town",
         "enTransliteration": "firm nun land city",
         "sequence": 1,
-        "pinyin": "jiān ní dì chéng"
+        "pinyin": "jiān ní dì chéng",
+        "enStory": "Kennedy Town was named in the colonial era after Governor Sir Arthur Kennedy, following the pattern of commemorative English place names on Hong Kong Island. The area developed as a western harbourfront zone of docks, stone yards, and working-class housing. Its station marks the district's shift from industrial edge to a dense residential extension of the island core."
     },
     {
         "lineCode": "ISL",
@@ -21,7 +22,8 @@
         "enName": "HKU",
         "enTransliteration": "fragrant harbour big learn",
         "sequence": 2,
-        "pinyin": "xiāng gǎng dà xué"
+        "pinyin": "xiāng gǎng dà xué",
+        "enStory": "HKU station is named for the University of Hong Kong, founded in 1911 as the city's first university under late colonial modernization. The surrounding Mid-Levels West area long combined academic institutions, hospitals, and older residential streets on steep terrain. The station brought rail access to that hillside district and reinforced its identity as a knowledge and medical hub."
     },
     {
         "lineCode": "ISL",
@@ -33,7 +35,8 @@
         "enName": "Sai Ying Pun",
         "enTransliteration": "west camp base",
         "sequence": 3,
-        "pinyin": "xī yíng pán"
+        "pinyin": "xī yíng pán",
+        "enStory": "Sai Ying Pun's name is tied to an early military camp area from the first decades of British rule, with ying reflecting that garrison history. It later became a mixed Chinese and expatriate neighborhood of tenements, temples, traders, and workshops. The station now sits in a rapidly gentrifying district where old street fabric and new development overlap."
     },
     {
         "lineCode": "ISL",
@@ -45,7 +48,8 @@
         "enName": "Sheung Wan",
         "enTransliteration": "upper ring",
         "sequence": 4,
-        "pinyin": "shàng huán"
+        "pinyin": "shàng huán",
+        "enStory": "Sheung Wan means Upper District in relation to Central, reflecting the layered Chinese naming system of early urban Hong Kong. It grew as a historic commercial quarter of dried seafood, medicine trade, and river-linked migration networks. The station serves a neighborhood where colonial streets, temple culture, and modern offices remain tightly interwoven."
     },
     {
         "lineCode": "ISL",
@@ -57,7 +61,8 @@
         "enName": "Central",
         "enTransliteration": "central ring",
         "sequence": 5,
-        "pinyin": "zhōng huán"
+        "pinyin": "zhōng huán",
+        "enStory": "Central's Chinese name Zhong Huan reflects its position in the old ring of early urban districts on the north shore of Hong Kong Island. From colonial administration to global finance, the area became the city's most concentrated center of institutional power and commerce. The station name is simple, but it carries the core story of Hong Kong's urban and economic formation."
     },
     {
         "lineCode": "ISL",
@@ -69,7 +74,8 @@
         "enName": "Admiralty",
         "enTransliteration": "golden bell",
         "sequence": 6,
-        "pinyin": "jīn zhōng"
+        "pinyin": "jīn zhōng",
+        "enStory": "Admiralty keeps a colonial-era English name from nearby naval grounds, while its Chinese name Jin Zhong preserves the older toponym Golden Bell. The area evolved from military and government land into one of Hong Kong's key civic and business districts. As multiple rail lines converged here, the station became a symbolic center of administration, commerce, and public life."
     },
     {
         "lineCode": "ISL",
@@ -81,7 +87,8 @@
         "enName": "Wan Chai",
         "enTransliteration": "little bay",
         "sequence": 7,
-        "pinyin": "wān zǎi"
+        "pinyin": "wān zǎi",
+        "enStory": "Wan Chai's name recalls a small coastal inlet that existed before repeated reclamation pushed the shoreline outward. The district moved from dockside and warehouse functions to nightlife, commerce, and major convention activity. Its station sits in that layered zone where fishing-village memory, colonial streets, and modern towers all intersect."
     },
     {
         "lineCode": "ISL",
@@ -93,7 +100,8 @@
         "enName": "Causeway Bay",
         "enTransliteration": "copper gong bay",
         "sequence": 8,
-        "pinyin": "tóng luó wān"
+        "pinyin": "tóng luó wān",
+        "enStory": "Causeway Bay's English name came from an old causeway crossing coastal shallows, while Tong Lo Wan preserves the older Chinese bay name. Much of the area was transformed by reclamation into one of Asia's most intense shopping and entertainment districts. The station anchors a place where historic shoreline engineering directly enabled modern retail urbanism."
     },
     {
         "lineCode": "ISL",
@@ -105,7 +113,8 @@
         "enName": "Tin Hau",
         "enTransliteration": "heavenly queen",
         "sequence": 9,
-        "pinyin": "tiān hòu"
+        "pinyin": "tiān hòu",
+        "enStory": "Tin Hau is named after the sea goddess Mazu, reflecting the maritime religious culture of early coastal communities. The nearby temple gave the district a durable identity long before high-rise development arrived. The station therefore links modern island transit with an older seafaring belief system still visible in local street life and festivals."
     },
     {
         "lineCode": "ISL",
@@ -117,7 +126,8 @@
         "enName": "Fortress Hill",
         "enTransliteration": "cannon platform hill",
         "sequence": 10,
-        "pinyin": "pào tái shān"
+        "pinyin": "pào tái shān",
+        "enStory": "Fortress Hill translates the Chinese name Pau Toi Shan, which points to former military batteries once positioned on higher ground nearby. That defensive geography later gave way to dense urban residential and commercial blocks on the north shore. The station name preserves a military memory mostly erased from the visible landscape."
     },
     {
         "lineCode": "ISL",
@@ -129,7 +139,8 @@
         "enName": "North Point",
         "enTransliteration": "north corner",
         "sequence": 11,
-        "pinyin": "běi jiǎo"
+        "pinyin": "běi jiǎo",
+        "enStory": "North Point began as a literal point on the island's northeastern shore, then developed into a mixed residential and industrial district in the twentieth century. It also became known for significant migration waves, including a strong Shanghainese community that shaped food and business culture. The station reflects that history of shoreline growth, migration, and urban layering."
     },
     {
         "lineCode": "ISL",
@@ -141,7 +152,8 @@
         "enName": "Quarry Bay",
         "enTransliteration": "carp fish gush",
         "sequence": 12,
-        "pinyin": "zéi yú chōng"
+        "pinyin": "zéi yú chōng",
+        "enStory": "Quarry Bay's English name records the stone-quarrying industry that once dominated this stretch of eastern Hong Kong Island. The Chinese toponym references a stream valley, showing how dual naming captured both natural form and colonial economy. Over time it evolved into a major office and residential node, with the station at the center of that transformation."
     },
     {
         "lineCode": "ISL",
@@ -153,7 +165,8 @@
         "enName": "Tai Koo",
         "enTransliteration": "too ancient",
         "sequence": 13,
-        "pinyin": "tài gǔ"
+        "pinyin": "tài gǔ",
+        "enStory": "Tai Koo comes from the Chinese rendering of Swire's Taikoo brand, whose dockyard and sugar refinery once shaped the area's industrial identity. Company-led land use later gave way to large private housing and office redevelopment. The station name is a clear case where corporate history became permanent urban toponymy."
     },
     {
         "lineCode": "ISL",
@@ -165,7 +178,8 @@
         "enName": "Sai Wan Ho",
         "enTransliteration": "west bay river",
         "sequence": 14,
-        "pinyin": "xī wān hé"
+        "pinyin": "xī wān hé",
+        "enStory": "Sai Wan Ho combines references to a western bay and waterside channels, preserving pre-reclamation coastal geography in its name. The district shifted from shipyards and marine repair uses toward dense housing and schools. Its station marks that change from working harbour edge to everyday residential waterfront."
     },
     {
         "lineCode": "ISL",
@@ -177,7 +191,8 @@
         "enName": "Shau Kei Wan",
         "enTransliteration": "strainer ladle bay",
         "sequence": 15,
-        "pinyin": "shāo jī wān"
+        "pinyin": "shāo jī wān",
+        "enStory": "Shau Kei Wan's unusual name is often linked to the shape of the old bay, compared in folk explanation to a scoop or strainer. It was historically a fishing and boat-building area with strong temple and clan institutions. The station now serves a dense urban district while the toponym preserves its maritime origins."
     },
     {
         "lineCode": "ISL",
@@ -189,7 +204,8 @@
         "enName": "Heng Fa Chuen",
         "enTransliteration": "apricot flower village",
         "sequence": 16,
-        "pinyin": "xìng huā cūn"
+        "pinyin": "xìng huā cūn",
+        "enStory": "Heng Fa Chuen is a modern estate name created during large-scale residential reclamation and redevelopment in eastern island waters. The poetic phrase apricot blossom village was chosen for lifestyle appeal rather than historical village continuity. Its station represents a late twentieth-century phase where new land and private housing generated entirely new place identities."
     },
     {
         "lineCode": "ISL",
@@ -201,6 +217,7 @@
         "enName": "Chai Wan",
         "enTransliteration": "firewood bay",
         "sequence": 17,
-        "pinyin": "chái wān"
+        "pinyin": "chái wān",
+        "enStory": "Chai Wan's name recalls a bay associated with firewood collection and distribution in earlier coastal economies. The area later hosted industry, public housing, and transport depots at the eastern end of Hong Kong Island's urban belt. The station name keeps the memory of a resource-working shoreline inside a fully metropolitan district."
     }
 ]

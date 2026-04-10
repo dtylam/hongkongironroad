@@ -9,7 +9,8 @@
         "enName": "Tiu Keng Leng",
         "enTransliteration": "adjust view ridge",
         "sequence": 1,
-        "pinyin": "tiáo jǐng lǐng"
+        "pinyin": "tiáo jǐng lǐng",
+        "enStory": "Tiu Keng Leng was once known internationally as Rennie's Mill, after a failed late nineteenth-century industrial venture on Junk Bay's edge. The later Chinese name is tied to local reinterpretation and folk etymology, reflecting how communities renamed the place over time. Mid-twentieth-century refugee settlement then gave the district a distinctive social history before high-rise redevelopment transformed it."
     },
     {
         "lineCode": "KTL",
@@ -21,7 +22,8 @@
         "enName": "Yau Tong",
         "enTransliteration": "oil pond",
         "sequence": 2,
-        "pinyin": "yóu táng"
+        "pinyin": "yóu táng",
+        "enStory": "Yau Tong's name preserves memories of an older coastal landscape of inlets, yards, and practical waterfront uses rather than a planned town center. For decades the area was defined by shipyards, quarries, and industrial activity along eastern Kowloon. Its station now serves dense housing built over that former industrial fringe, where the place name outlived the shoreline economy that formed it."
     },
     {
         "lineCode": "KTL",
@@ -33,7 +35,8 @@
         "enName": "Lam Tin",
         "enTransliteration": "blue field",
         "sequence": 3,
-        "pinyin": "lán tián"
+        "pinyin": "lán tián",
+        "enStory": "Lam Tin is famous for being a deliberate renaming of nearby Saa Mau Ping, with officials selecting more auspicious characters while keeping a similar sound. That linguistic makeover accompanied postwar public-housing expansion in east Kowloon. The station name therefore tells a story of image-making as much as geography, reflecting how policy reshaped both neighborhood identity and language."
     },
     {
         "lineCode": "KTL",
@@ -45,7 +48,8 @@
         "enName": "Kwun Tong",
         "enTransliteration": "view pond",
         "sequence": 4,
-        "pinyin": "guān táng"
+        "pinyin": "guān táng",
+        "enStory": "Kwun Tong began as a coastal settlement but became one of Hong Kong's earliest and largest planned industrial districts in the postwar years. The name predates that factory era, linking the area to older village and shoreline geography. As industry moved out, the district shifted toward offices, homes, and culture, making the station a witness to repeated reinvention."
     },
     {
         "lineCode": "KTL",
@@ -57,7 +61,8 @@
         "enName": "Ngau Tau Kok",
         "enTransliteration": "ox head corner",
         "sequence": 5,
-        "pinyin": "niú tóu jiǎo"
+        "pinyin": "niú tóu jiǎo",
+        "enStory": "Ngau Tau Kok's vivid name likely came from a headland or shoreline shape that locals compared to an ox's head. It evolved from village edges and light industry into major public-housing estates during rapid urban growth. The station now sits in a dense urban grid, but the name still hints at an older landscape once read through animal metaphors and coastal forms."
     },
     {
         "lineCode": "KTL",
@@ -69,7 +74,8 @@
         "enName": "Kowloon Bay",
         "enTransliteration": "nine dragon bay",
         "sequence": 6,
-        "pinyin": "jiǔ lóng wān"
+        "pinyin": "jiǔ lóng wān",
+        "enStory": "Kowloon Bay was literally a bay before reclamation redrew the shoreline and created today's industrial and commercial platforms. Its name keeps that maritime memory alive even as land replaced water. Over time the district transitioned from manufacturing to office towers, retail complexes, and event venues, and the station tracks that shift from harbour edge to metropolitan center."
     },
     {
         "lineCode": "KTL",
@@ -81,7 +87,8 @@
         "enName": "Choi Hung",
         "enTransliteration": "rainbow",
         "sequence": 7,
-        "pinyin": "cǎi hóng"
+        "pinyin": "cǎi hóng",
+        "enStory": "Choi Hung takes its name from the nearby Choi Hung Estate, one of the emblematic public-housing projects of postwar Kowloon. The poetic word rainbow softened what was otherwise a hard-edged era of urgent mass rehousing. Today the station name carries both the optimism of that naming choice and the social history of Hong Kong's housing transformation."
     },
     {
         "lineCode": "KTL",
@@ -106,7 +113,8 @@
         "enName": "Wong Tai Sin",
         "enTransliteration": "yellow great immortal",
         "sequence": 9,
-        "pinyin": "huáng dà xiān"
+        "pinyin": "huáng dà xiān",
+        "enStory": "Wong Tai Sin is named after the Taoist deity worshipped at the district's famed temple, a site that grew rapidly in the twentieth century. The temple attracted pilgrims and residents alike, turning religion into a core marker of local identity. As public estates rose around it, the station connected spiritual landmark and everyday neighborhood life in one of Kowloon's busiest corridors."
     },
     {
         "lineCode": "KTL",
@@ -131,7 +139,8 @@
         "enName": "Kowloon Tong",
         "enTransliteration": "nine dragon pond",
         "sequence": 11,
-        "pinyin": "jiǔ lóng táng"
+        "pinyin": "jiǔ lóng táng",
+        "enStory": "Kowloon Tong combines the broader Kowloon toponym with tong, a traditional term often associated with ponds or low-lying water terrain. The area developed in the twentieth century as a lower-density district of schools, residences, and institutions, contrasting with older crowded urban Kowloon. Its station later became a major interchange, turning a suburban label into a citywide transfer landmark."
     },
     {
         "lineCode": "KTL",
@@ -143,7 +152,8 @@
         "enName": "Shek Kip Mei",
         "enTransliteration": "stone gorge tail",
         "sequence": 12,
-        "pinyin": "shí xiá wěi"
+        "pinyin": "shí xiá wěi",
+        "enStory": "Shek Kip Mei's name reflects stony terrain and stream-cut landforms once visible in the area before full urbanization. The district became historically pivotal after the 1953 fire, which prompted the government's first large-scale resettlement housing program. Its station therefore sits in a place central to the origin story of Hong Kong public housing policy."
     },
     {
         "lineCode": "KTL",
@@ -168,7 +178,8 @@
         "enName": "Mong Kok",
         "enTransliteration": "prosperous corner",
         "sequence": 14,
-        "pinyin": "wàng jiǎo"
+        "pinyin": "wàng jiǎo",
+        "enStory": "Mong Kok grew from market streets and transport routes into one of the densest commercial districts on earth. The name's sense of a busy corner matches its long history of trading, entertainment, and constant pedestrian flow. The station channels that intensity, anchoring an area where old street markets and modern malls coexist in tight urban layers."
     },
     {
         "lineCode": "KTL",
@@ -180,7 +191,8 @@
         "enName": "Yau Ma Tei",
         "enTransliteration": "oil hemp land",
         "sequence": 15,
-        "pinyin": "yóu má dì"
+        "pinyin": "yóu má dì",
+        "enStory": "Yau Ma Tei's name is rooted in older shoreline industries and crops, recalling a time when this was a working waterfront fringe rather than inner-city core. Fishing communities, typhoon shelters, temples, and wholesale markets later shaped its neighborhood character. The station preserves that layered past in a district where colonial-era streets still meet intense modern urban life."
     },
     {
         "lineCode": "KTL",
@@ -205,6 +217,7 @@
         "enName": "Whampoa",
         "enTransliteration": "yellow wharf",
         "sequence": 17,
-        "pinyin": "huáng pǔ"
+        "pinyin": "huáng pǔ",
+        "enStory": "Whampoa takes its English name from the historic Hutchison Whampoa dock and estate branding that dominated this part of Hung Hom. The district shifted from shipbuilding and logistics to large private housing and retail redevelopment in the late twentieth century. Its station marks that transition from industrial waterfront to planned residential enclave."
     }
 ]

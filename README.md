@@ -1,6 +1,6 @@
 # hongkongironroad
 
-Hong Kong railway stations. But in literal translations.
+Hong Kong railway stations names. Literally.
 
 I hate having to update npm/js libraries, so wrote this with vanilla js 😝
 

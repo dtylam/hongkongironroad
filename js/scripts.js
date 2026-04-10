@@ -57,23 +57,14 @@ function syncStoryDetailsForViewport() {
 
 // ready function
 document.addEventListener("DOMContentLoaded", function () {
-  const header = document.querySelector('.site-header');
-  const compactThreshold = 36;
-  if (header) {
-    const updateHeaderState = () => {
-      header.classList.toggle('is-compact', window.scrollY > compactThreshold);
-    };
-    updateHeaderState();
-    window.addEventListener('scroll', updateHeaderState, { passive: true });
-  }
-
-  const drawer = document.querySelector('.pick-line-drawer');
-  const openButton = document.querySelector('#pick-line-button');
-  if (openButton && drawer) {
-    openButton.addEventListener('click', () => {
-      drawer.open = true;
-    });
-  }
+  // Mobile pick-line drawer/button disabled in favor of always-visible horizontal picker.
+  // const drawer = document.querySelector('.pick-line-drawer');
+  // const openButton = document.querySelector('#pick-line-button');
+  // if (openButton && drawer) {
+  //   openButton.addEventListener('click', () => {
+  //     drawer.open = true;
+  //   });
+  // }
 
   const allLines = Object.values(TrainLine).filter(value => typeof value === 'object' && value.lineCode);
   const lineByCode = new Map(allLines.map(line => [line.lineCode, line]));
@@ -88,9 +79,9 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
       }
       loadLine(selectedLine);
-      if (drawer && drawer.contains(button)) {
-        drawer.open = false;
-      }
+      // if (drawer && drawer.contains(button)) {
+      //   drawer.open = false;
+      // }
     });
   });
 

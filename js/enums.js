@@ -47,6 +47,18 @@ export const TrainLine = Object.freeze({
         enName: 'Tsuen Wan Line',
         zhName: '荃灣綫'
     },
+    DRL: {
+        lineCode: 'DRL',
+        lineColor: '#F173AC',
+        enName: 'Disneyland Resort Line',
+        zhName: '迪士尼綫'
+    },
+    TML: {
+        lineCode: 'TML',
+        lineColor: '#923011',
+        enName: 'Tuen Ma Line',
+        zhName: '屯馬綫'
+    },
     // Helper methods
     fromCode(code) {
         return Object.values(this).find(line => 

@@ -35,11 +35,12 @@
 <body>
     <header class="site-header">
         <h1 class="site-title"><span class="zh">香港鐵路 · </span>Hong Kong Iron Road</h1>
-        <section>
-            <p><span class="zh">香港鐵路 · 站名典 · 直譯版</span><br />Hong Kong railway stations names. Literally.</p>
-        </section>
     </header>
     <main>
+        <section id="tagline">
+            <p><span class="zh">香港鐵路 · 站名典 · 直譯版</span><br />Hong Kong railway stations names. Literally.</p>
+        </section>
+        <!--
         <wa-drawer label="Pick Your Line" class="pick-line-drawer">
             <ul class="line-picker-list">
                 <li class="line-picker-item">
@@ -72,13 +73,22 @@
                         Line</wa-button>
                 </li>
                 <li class="line-picker-item">
+                    <wa-badge variant="neutral">2005</wa-badge>
+                    <wa-button id="drl-button" class="line-picker-button" data-line="DRL" variant="neutral" appearance="outlined">迪士尼綫 Disneyland Resort Line</wa-button>
+                </li>
+                <li class="line-picker-item">
                     <wa-badge variant="neutral">2016</wa-badge>
                     <wa-button id="sil-button" class="line-picker-button" data-line="SIL" variant="neutral" appearance="outlined">南港島綫 South Island
                         Line</wa-button>
                 </li>
+                <li class="line-picker-item">
+                    <wa-badge variant="neutral">2021</wa-badge>
+                    <wa-button id="tml-button" class="line-picker-button" data-line="TML" variant="neutral" appearance="outlined">屯馬綫 Tuen Ma Line</wa-button>
+                </li>
             </ul>
         </wa-drawer>
         <wa-button id="pick-line-button" appearance="filled-outlined" variant="neutral">Pick Your Line</wa-button>
+        -->
         <section class="line-picker-scroll" aria-label="Pick Your Line">
             <ul class="line-picker-list" role="list">
                 <li class="line-picker-item">
@@ -110,8 +120,16 @@
                     <wa-button class="line-picker-button" data-line="TKL" variant="neutral" appearance="outlined">將軍澳綫 Tseung Kwan O Line</wa-button>
                 </li>
                 <li class="line-picker-item">
+                    <wa-badge variant="neutral">2005</wa-badge>
+                    <wa-button class="line-picker-button" data-line="DRL" variant="neutral" appearance="outlined">迪士尼綫 Disneyland Resort Line</wa-button>
+                </li>
+                <li class="line-picker-item">
                     <wa-badge variant="neutral">2016</wa-badge>
                     <wa-button class="line-picker-button" data-line="SIL" variant="neutral" appearance="outlined">南港島綫 South Island Line</wa-button>
+                </li>
+                <li class="line-picker-item">
+                    <wa-badge variant="neutral">2021</wa-badge>
+                    <wa-button class="line-picker-button" data-line="TML" variant="neutral" appearance="outlined">屯馬綫 Tuen Ma Line</wa-button>
                 </li>
             </ul>
         </section>

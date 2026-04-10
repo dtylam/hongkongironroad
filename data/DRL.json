@@ -1,0 +1,28 @@
+[
+    {
+        "lineCode": "DRL",
+        "direction": "UT",
+        "stationCode": "DIS",
+        "stationId": 55,
+        "zhName": "迪士尼",
+        "jyutping": "dik6 si6 nei4",
+        "enName": "Disneyland Resort",
+        "enTransliteration": "enlighten scholar nun",
+        "sequence": 1,
+        "pinyin": "dí shì ní",
+        "enStory": "This station was built specifically for Hong Kong Disneyland, opened in 2005. Its Chinese name is primarily phonetic, using characters to mimick 'Disney' rather than describe local geography. The train decorations and station architecture wow-ed fans since day one."
+    },
+    {
+        "lineCode": "DRL",
+        "direction": "UT",
+        "stationCode": "SUN",
+        "stationId": 54,
+        "zhName": "欣澳",
+        "jyutping": "jan1 ou3",
+        "enName": "Sunny Bay",
+        "enTransliteration": "joyful bay",
+        "sequence": 2,
+        "pinyin": "xīn ào",
+        "enStory": "Sunny Bay was created as the interchange gateway between the airport corridor and the Disneyland Resort branch. The Chinese name 欣澳 blends upbeat sentiment with 澳, a character tied to bays and inlets, matching Lantau's coastal setting. Rather than inheriting an old village name, it represents modern transport-era place making, where new rail infrastructure effectively creates new geography in public memory."
+    }
+]

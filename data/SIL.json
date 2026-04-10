@@ -9,7 +9,8 @@
         "enName": "Admiralty",
         "enTransliteration": "golden bell",
         "sequence": 1,
-        "pinyin": "jīn zhōng"
+        "pinyin": "jīn zhōng",
+        "enStory": "Admiralty keeps a colonial-era English name from nearby naval grounds, while its Chinese name Jin Zhong preserves the older toponym Golden Bell. The area evolved from military and government land into one of Hong Kong's key civic and business districts. As multiple rail lines converged here, the station became a symbolic center of administration, commerce, and public life."
     },
     {
         "lineCode": "SIL",
@@ -21,7 +22,8 @@
         "enName": "Ocean Park",
         "enTransliteration": "ocean park",
         "sequence": 2,
-        "pinyin": "hǎi yáng gōng yuán"
+        "pinyin": "hǎi yáng gōng yuán",
+        "enStory": "Ocean Park station is named directly after the marine-themed amusement park opened in 1977, one of Hong Kong's most recognizable leisure landmarks. Unlike old village-based toponyms, this is a modern destination name created by tourism and urban planning. The station reflects how Southside mobility shifted from road-dependent travel to rail access for both residents and visitors."
     },
     {
         "lineCode": "SIL",
@@ -33,7 +35,8 @@
         "enName": "Wong Chuk Hang",
         "enTransliteration": "yellow bamboo pit",
         "sequence": 3,
-        "pinyin": "huáng zhú kēng"
+        "pinyin": "huáng zhú kēng",
+        "enStory": "Wong Chuk Hang's name points to an older landscape of bamboo groves and low valley ground, preserving rural imagery in modern Hong Kong. The district later became a major light-industrial and warehouse area on the south side of the island. In recent years it has been rapidly transformed into offices, homes, and creative spaces, with the station accelerating that shift."
     },
     {
         "lineCode": "SIL",
@@ -45,7 +48,8 @@
         "enName": "Lei Tung",
         "enTransliteration": "benefit east",
         "sequence": 4,
-        "pinyin": "lì dōng"
+        "pinyin": "lì dōng",
+        "enStory": "Lei Tung takes its name from Lei Tung Estate, a large public-housing development built in the Ap Lei Chau expansion era. The name itself is modern and aspirational, reflecting estate-era naming practices rather than a historic village label. The station anchors a community that grew through planned housing policy on what was once a more isolated island settlement."
     },
     {
         "lineCode": "SIL",
@@ -57,6 +61,7 @@
         "enName": "South Horizons",
         "enTransliteration": "sea joy peninsula",
         "sequence": 5,
-        "pinyin": "hǎi yí bàn dǎo"
+        "pinyin": "hǎi yí bàn dǎo",
+        "enStory": "South Horizons is a branded residential name from large-scale private redevelopment on Ap Lei Chau's waterfront. The Chinese name Hai Yi Ban Dao emphasizes a pleasant maritime peninsula image, showing the language of late twentieth-century property marketing. Its station marks the transition from former industrial and utility uses nearby to high-density coastal living tied into the urban core."
     }
 ]

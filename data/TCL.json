@@ -9,7 +9,8 @@
         "enName": "Tung Chung",
         "enTransliteration": "east gush",
         "sequence": 1,
-        "pinyin": "dōng chōng"
+        "pinyin": "dōng chōng",
+        "enStory": "Tung Chung is one of Lantau's oldest settlement areas, with the name often linked to an eastern stream and valley geography. It later became strategically important for coastal defense, leaving nearby fortifications and military traces from the Qing period. In the modern era, airport development and the new town remade it into a major residential and transport gateway."
     },
     {
         "lineCode": "TCL",
@@ -34,7 +35,8 @@
         "enName": "Tsing Yi",
         "enTransliteration": "green coat",
         "sequence": 3,
-        "pinyin": "qīng yī"
+        "pinyin": "qīng yī",
+        "enStory": "Tsing Yi was historically an island of fishing villages and small coastal industries before container logistics and new-town housing reshaped it. The name is old and likely tied to local natural features, surviving multiple waves of reclamation and bridge-building. Its station now reflects that transformation from maritime periphery to one of Hong Kong's key transport junctions."
     },
     {
         "lineCode": "TCL",
@@ -46,7 +48,8 @@
         "enName": "Lai King",
         "enTransliteration": "lychee view",
         "sequence": 4,
-        "pinyin": "lì jǐng"
+        "pinyin": "lì jǐng",
+        "enStory": "Lai King takes an auspicious modern housing-estate name rather than an older village toponym, typical of late twentieth-century urban expansion. The characters suggest scenic quality and prosperity, part of a broader naming culture for new residential districts. Its interchange role later gave the name citywide familiarity far beyond the hillside neighborhood it first described."
     },
     {
         "lineCode": "TCL",
@@ -71,7 +74,8 @@
         "enName": "Olympic",
         "enTransliteration": "profound movement",
         "sequence": 6,
-        "pinyin": "ào yùn"
+        "pinyin": "ào yùn",
+        "enStory": "Olympic is a deliberately modern station name tied to the large West Kowloon reclamation and development branding around the turn of the millennium. The Chinese name directly references the Olympic ideal rather than any historic local village name. That choice signals a new chapter of place-making in which infrastructure and real-estate planning produced an entirely new urban identity."
     },
     {
         "lineCode": "TCL",
@@ -83,7 +87,8 @@
         "enName": "Kowloon",
         "enTransliteration": "nine dragon",
         "sequence": 7,
-        "pinyin": "jiǔ lóng"
+        "pinyin": "jiǔ lóng",
+        "enStory": "Kowloon's name comes from the old Nine Dragons toponym, traditionally linked to surrounding peaks and imperial symbolism in local lore. The station area itself was created through major reclamation and planned as part of a high-speed airport-rail corridor. Its modern towers and transport halls therefore sit on land that represents late twentieth-century city-building at metropolitan scale."
     },
     {
         "lineCode": "TCL",
@@ -95,6 +100,7 @@
         "enName": "Hong Kong",
         "enTransliteration": "fragrant harbour",
         "sequence": 8,
-        "pinyin": "xiāng gǎng"
+        "pinyin": "xiāng gǎng",
+        "enStory": "Hong Kong's Chinese name is commonly explained through maritime trade memory, often associated with fragrant goods and sheltered harbour waters. The central waterfront around this station has been repeatedly reshaped by reclamation, moving the shoreline north over generations. As a terminus, the station compresses that whole history: from harbour town origins to global financial hub."
     }
 ]

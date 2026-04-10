@@ -256,6 +256,16 @@ span.card-title {
     border-color: #ED1D24;
 }
 
+.line-picker-button[data-line="DRL"]::part(base) {
+    color: #F173AC;
+    border-color: #F173AC;
+}
+
+.line-picker-button[data-line="TML"]::part(base) {
+    color: #923011;
+    border-color: #923011;
+}
+
 h3#current-line {
     border-top: 1px solid;
     border-bottom: 1px solid;

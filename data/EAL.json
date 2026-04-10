@@ -9,7 +9,8 @@
         "enName": "Lo Wu",
         "enTransliteration": "collect lake",
         "sequence": 0,
-        "pinyin": "luó hú"
+        "pinyin": "luó hú",
+        "enStory": "Lo Wu grew from wet borderland villages beside the Sham Chun River, where ponds and low fields shaped daily life and likely shaped the name. For centuries it sat on a quiet edge between county worlds, then became one of the most symbolic crossing points in modern Chinese history. Its station turned a rural frontier into a place of reunion, migration, and constant movement."
     },
     {
         "lineCode": "EAL",
@@ -21,7 +22,8 @@
         "enName": "Lok Ma Chau",
         "enTransliteration": "alight horse island",
         "sequence": 1,
-        "pinyin": "luò mǎ zhōu"
+        "pinyin": "luò mǎ zhōu",
+        "enStory": "Lok Ma Chau's name recalls an older landscape of channels and marshy islets, with folk memory tying it to horses and river travel. The area long remained agricultural fishpond country at the edge of the territory. In the contemporary era it was redefined as a major boundary gateway, where old wetlands now sit beside one of Hong Kong's busiest transit interfaces."
     },
     {
         "lineCode": "EAL",
@@ -33,7 +35,8 @@
         "enName": "Sheung Shui",
         "enTransliteration": "up water",
         "sequence": 2,
-        "pinyin": "shàng shuǐ"
+        "pinyin": "shàng shuǐ",
+        "enStory": "Sheung Shui's name points to its position in an older river and irrigation geography, where settlements were described by relative water levels. Market villages in the district connected farming communities across the northern New Territories. Rail later amplified that role, so the area kept its historic function as a connector while becoming a commuter and cross-border hub."
     },
     {
         "lineCode": "EAL",
@@ -45,7 +48,8 @@
         "enName": "Fanling",
         "enTransliteration": "pink ridge",
         "sequence": 3,
-        "pinyin": "fěn lǐng"
+        "pinyin": "fěn lǐng",
+        "enStory": "Fanling was historically a cluster of walled villages and market settlements linked to Hakka and Punti lineages. The name is often connected to local topography and soil tones, but its deeper story is one of clan networks, temples, and rural trade routes. As the New Territories modernized, Fanling shifted from agrarian center to new-town district while retaining traces of those village roots."
     },
     {
         "lineCode": "EAL",
@@ -57,7 +61,8 @@
         "enName": "Tai Wo",
         "enTransliteration": "highest harmony",
         "sequence": 4,
-        "pinyin": "tài hé"
+        "pinyin": "tài hé",
+        "enStory": "Tai Wo carries an auspicious phrase meaning broad peace and harmony, a naming style common in South China settlements hoping for stability and prosperity. The surrounding area was once tied to village life and market exchange under the older Tai Po hinterland. When new-town planning arrived, the station name preserved that older cultural tone inside a thoroughly modern residential district."
     },
     {
         "lineCode": "EAL",
@@ -69,7 +74,8 @@
         "enName": "Tai Po Market",
         "enTransliteration": "big plains market",
         "sequence": 5,
-        "pinyin": "dà bù xū"
+        "pinyin": "dà bù xū",
+        "enStory": "Tai Po Market takes its identity from the historic market town where villagers from different valleys came to trade produce, salt, and daily goods. The character xu in the Chinese name points directly to that periodic market tradition. Even after reclamation and new-town growth transformed the coastline, the station still anchors the memory of Tai Po as a commercial meeting ground."
     },
     {
         "lineCode": "EAL",
@@ -81,7 +87,8 @@
         "enName": "University",
         "enTransliteration": "big learn",
         "sequence": 6,
-        "pinyin": "dà xué"
+        "pinyin": "dà xué",
+        "enStory": "University station is named for the Chinese University of Hong Kong, founded in 1963 by uniting several postwar colleges. Its hilltop campus above Tolo Harbour gave the East Rail corridor a distinct academic stop unlike the older market-town stations to the north. The name marks a shift in the line's history from rural transport to education-driven suburban growth."
     },
     {
         "lineCode": "EAL",
@@ -93,7 +100,8 @@
         "enName": "Fo Tan",
         "enTransliteration": "fire coal",
         "sequence": 7,
-        "pinyin": "huǒ tàn"
+        "pinyin": "huǒ tàn",
+        "enStory": "Fo Tan's name is often read as fire and charcoal, echoing memories of fuel burning and industry in the valley. The area later became known for factories and warehouse blocks during Hong Kong's manufacturing decades. As industry declined, many units were reused as artist studios, giving Fo Tan a second life where industrial heritage and creative culture now overlap."
     },
     {
         "lineCode": "EAL",
@@ -105,7 +113,8 @@
         "enName": "Sha Tin",
         "enTransliteration": "sand field",
         "sequence": 8,
-        "pinyin": "shā tián"
+        "pinyin": "shā tián",
+        "enStory": "Sha Tin began as a river plain of villages and farmland, and its name reflects that sandy agricultural terrain. In the 1970s it became one of Hong Kong's flagship new towns, with massive housing, roads, and civic planning. The station sits at the heart of that transformation, linking a once-rural basin to the metropolitan core."
     },
     {
         "lineCode": "EAL",
@@ -130,7 +139,8 @@
         "enName": "Kowloon Tong",
         "enTransliteration": "nine dragon pond",
         "sequence": 10,
-        "pinyin": "jiǔ lóng táng"
+        "pinyin": "jiǔ lóng táng",
+        "enStory": "Kowloon Tong combines the old regional name Kowloon with tong, a word linked to ponds or low-lying water features in traditional place naming. The district developed in the twentieth century as a planned residential area with schools, institutions, and broad roads unlike older dense Kowloon quarters. Its station later became a major interchange, turning a suburban address into one of the city's everyday transfer points."
     },
     {
         "lineCode": "EAL",
@@ -142,7 +152,8 @@
         "enName": "Mong Kok East",
         "enTransliteration": "bustling corner east",
         "sequence": 11,
-        "pinyin": "wàng jiǎo dōng"
+        "pinyin": "wàng jiǎo dōng",
+        "enStory": "The older name Mong Kok evokes a busy, commercially charged district that grew from market streets into one of Kowloon's densest urban zones. East distinguishes this rail stop from the core shopping area while still tying it to that same restless energy. The station's history reflects railway-led redevelopment around former freight and industrial lands into retail, housing, and regional connections."
     },
     {
         "lineCode": "EAL",
@@ -167,7 +178,8 @@
         "enName": "Exhibition Centre",
         "enTransliteration": "meetings exhibitions",
         "sequence": 13,
-        "pinyin": "huì zhǎn"
+        "pinyin": "huì zhǎn",
+        "enStory": "The Chinese name Huizhan is shorthand for the Hong Kong Convention and Exhibition Centre, the waterfront complex that reshaped Wan Chai North's identity. Built on reclaimed land, the district represents a modern phase of city-making where shoreline engineering created space for finance, events, and diplomacy. The station name captures that contemporary chapter rather than an older village-era toponym."
     },
     {
         "lineCode": "EAL",
@@ -179,6 +191,7 @@
         "enName": "Admiralty",
         "enTransliteration": "golden bell",
         "sequence": 14,
-        "pinyin": "jīn zhōng"
+        "pinyin": "jīn zhōng",
+        "enStory": "Admiralty keeps a colonial-era English name from nearby naval grounds, while its Chinese name Jin Zhong preserves the older toponym Golden Bell. The area evolved from military and government land into one of Hong Kong's key civic and business districts. As multiple rail lines converged here, the station became a symbolic center of administration, commerce, and public life."
     }
 ]

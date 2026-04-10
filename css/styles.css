@@ -16,7 +16,7 @@
 }
 
 .stations-carousel {
-    min-height: 80vh;
+    min-height: 75vh;
 }
 
 .station-item-wrapper {
@@ -47,8 +47,7 @@ p.en-story {
 
 @media (min-width: 768px) {
     .stations-carousel {
-        min-height: auto;
-        max-height: 32em;
+        min-height: 55vh;
     }
 
     .station-item-wrapper {
@@ -56,6 +55,7 @@ p.en-story {
         align-items: flex-start;
         justify-content: center;
         gap: 1.25rem;
+        min-height: 45vh;
         max-width: 72rem;
         margin: 0 auto;
     }
@@ -67,6 +67,16 @@ p.en-story {
     .station-story-details {
         max-width: 28rem;
         margin-top: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .stations-carousel {
+        max-height: 65vh;
+    }
+
+    .station-item-wrapper {
+        max-height: 55vh;
     }
 }
 
@@ -86,7 +96,7 @@ div.line-drawing {
     align-items: center;
 }
 
-span.zh{
+span.zh {
     font-family: "Noto Serif TC", sans-serif;
     font-weight: 600;
 }
@@ -131,12 +141,12 @@ span.en-name {
 }
 
 div.zh-phonetics-stack {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  text-align: right;
-  gap: 0.3em;
-  margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    gap: 0.3em;
+    margin: auto 0;
 }
 
 span.jyutping {

@@ -21,7 +21,8 @@
         "enName": "Sunny Bay",
         "enTransliteration": "joyful bay",
         "sequence": 2,
-        "pinyin": "xīn ào"
+        "pinyin": "xīn ào",
+        "enStory": "Sunny Bay was created as the interchange gateway between the airport corridor and the Disneyland Resort branch. The Chinese name 欣澳 blends upbeat sentiment with 澳, a character tied to bays and inlets, matching Lantau's coastal setting. Rather than inheriting an old village name, it represents modern transport-era place making, where new rail infrastructure effectively creates new geography in public memory."
     },
     {
         "lineCode": "TCL",
@@ -57,7 +58,8 @@
         "enName": "Nam Cheong",
         "enTransliteration": "south prosperity",
         "sequence": 5,
-        "pinyin": "nán chāng"
+        "pinyin": "nán chāng",
+        "enStory": "Nam Cheong station takes its name from Nam Cheong Street in Sham Shui Po. Like many colonial-era street names, it references a mainland city name rather than an older village toponym on site. The station's real historical importance is transport geography: it sits on reclaimed land where cross-line interchange helped knit West Kowloon into the wider rail network."
     },
     {
         "lineCode": "TCL",

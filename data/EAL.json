@@ -115,9 +115,10 @@
         "zhName": "大圍",
         "jyutping": "daai6 wai4",
         "enName": "Tai Wai",
-        "enTransliteration": "big surround",
+        "enTransliteration": "big enclosure",
         "sequence": 9,
-        "pinyin": "dà wéi"
+        "pinyin": "dà wéi",
+        "enStory": "Tai Wai's name points to historic enclosed villages and defensive settlement patterns in the New Territories. Positioned where routes from Kowloon meet the Sha Tin plain, it naturally evolved into a transport hinge. The modern interchange station reflects that same geography: what was once a strategic village zone is now a key switching point in Hong Kong's rail system."
     },
     {
         "lineCode": "EAL",
@@ -153,7 +154,8 @@
         "enName": "Hung Hom",
         "enTransliteration": "red ledge",
         "sequence": 12,
-        "pinyin": "hóng kàn"
+        "pinyin": "hóng kàn",
+        "enStory": "Hung Hom was historically a coastal and quarrying area, and its name likely reflects reddish soil or rock along the shoreline. The district later became heavily industrial, with dockyards and rail infrastructure reinforcing its transport identity. Today the station remains a gateway between urban Kowloon and cross-harbour or intercity travel, carrying that long logistics legacy forward."
     },
     {
         "lineCode": "EAL",
